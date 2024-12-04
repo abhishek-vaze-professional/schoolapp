@@ -1,0 +1,194 @@
+{
+  "staffData": [
+    {
+      "name": "Mrs. Suvarn Bramhanand Kamat",
+      "designation": "In-Charge Headmistress",
+      "edu": "M.Sc. B.Ed.(Physical Chemistry)",
+      "img": "Suvarn",
+      "details": [
+        "Born in 1979 in Goa, did schooling from Lourdes Convent  High School,Saligao.",
+        "Did Higher secondary & Graduation  from St. Xavier’s HSS & College, Mapusa",
+        "Completed M.Sc. From Goa University",
+        "Teaching Experience:- 12 years",
+        "Worked as an external examiner for SSC Board Science Practical examination from 2016 onwards. ",
+        "Worked as examiner for SSC Board Examination from 2018 onwards. ",
+        "Worked as Dy. Conductor CET conducted by Goa Board  for SSC students in July 2021 and also as Dy. Conductor Mapusa Centre for Supplementary Examination for SSC in August 2021. ",
+        "Worked as a presenter for TV lesson  organized by SCERT, Goa which was telecasted Goa 365 local TV channel and is also available on SCERT Goa You Tube channel.",
+        "Submitted script and video of a lesson for class VIII to DIKSHA TV lessons.",
+        "Received Nation Builder Award from Rotary Club in 2021.",
+        "Worked as resource  person for guidance session on Effective Techniques for answering MCQ Pattern of Exam for SSC students organized by Purushottam Walawalkar Higher Secondary Super School Complex in September 2022.",
+        "Worked as resource  person for guidance session for SSC students organized by Colvale Super School complex in February 2023.",
+        "Worked as a presenter of Video lesson in science subject for PM  E-Vidya DTH TV Channel under the aegis of CIET, NCERT, Delhi and SCERT, Goa."
+      ]
+    },
+    {
+      "name": "Mrs. Pallavi Viraj Dhuri",
+      "designation": "Graduate Teacher ",
+      "edu": "B.A. (Economics & History) B.Ed",
+      "img": "Pallavi",
+      "details": [
+        "Born in 1987 in Goa.",
+        "Did schooling from St. Clara’s High School & Higher Secondary from DBM Higher Secondary, Mulgao, Bicholim",
+        "Did Graduation in Economics from Govt. College of Arts & Science, Sanquelim, & Graduation in History from Shivaji University, Kholapur. Currently pursuing M.A. from Shivaji University.",
+        "Teaching Experience:- 12 years",
+        "Received Nation Building award from Rotary Club in 2022 - 2023",
+        "Journalism Course Completed",
+        "Guided students in Goa Talent Search Examination."
+      ]
+    },
+    {
+      "name": "Mrs. Kashi Sarvesh Shirodkar",
+      "designation": "Graduate Teacher",
+      "edu": "M.A. (Hindi) B.Ed",
+      "img": "Kashi",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mrs. Gautami Vitthal Gawas",
+      "designation": "Graduate Teacher",
+      "edu": "M.A. (Marathi) B.Ed",
+      "img": "Gautami",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mrs. Yogita Anup Asolkar",
+      "designation": "Teacher",
+      "edu": "M.A. (English), M.Com, B.Ed",
+      "img": "Yogita",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mrs. Swati Pradosh Naik",
+      "designation": "Teacher",
+      "edu": "M.A. (English), M.Com, B.Ed",
+      "img": "Swati",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Subodh Chandrashekar Naik",
+      "designation": "Teacher",
+      "edu": "M.A. (Geography), B.Ed",
+      "img": "Subodh",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Tulsidas Shrikant Bordekar",
+      "designation": "P.E. Teacher",
+      "edu": "B.Sc. B.Ed(Physical Education)",
+      "img": "Tulsidas",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Shivanand Vishwanath Sawant",
+      "designation": "Art Teacher ",
+      "edu": "B.F.A (Painting)",
+      "img": "Shivanand",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Rajendra Dhabolkar",
+      "designation": "Science Laboratory Assistant ",
+      "edu": "B.Sc. B.Ed.",
+      "img": "Rajendra",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mrs. Seema Sameer Kubal",
+      "designation": "Teacher",
+      "edu": "M.A. D.Ed",
+      "img": "Seema",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mrs. Vimal Paresh Naik",
+      "designation": "Teacher",
+      "edu": "B.A. D.Ed",
+      "img": "Vimal",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Miss Janaki G. Vazarkar",
+      "designation": "Teacher",
+      "edu": "B.Com. D.El.Ed.",
+      "img": "Janaki",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Jeetendra Ram Gaonkar",
+      "designation": "Teacher",
+      "edu": "B.A. D.El.Ed.",
+      "img": "Jeetendra",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mrs. Anuja Rohan Pednekar",
+      "designation": "Teacher",
+      "edu": "B.A. B.Ed",
+      "img": "Anuja",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mrs. Rucha V. Kelkar",
+      "designation": "Teacher",
+      "edu": "M.Sc. M.A. (Sanskrit) B.Ed",
+      "img": "Rucha",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Mayur Mahesh Tamankar",
+      "designation": "ICT Teacher ",
+      "edu": "B.Sc. PGDCA (ICT)",
+      "img": "Mayur",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Rakesh Ramesh Desai",
+      "designation": "U.D.C.",
+      "edu": "",
+      "img": "Rakesh",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Durgesh Tinekar",
+      "designation": "L.D.C.",
+      "edu": "",
+      "img": "Durgesh",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Suhas S. Mahale",
+      "designation": "Multitasking Staff",
+      "edu": "",
+      "img": "Suhas",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Ankush S. Tulaskar",
+      "designation": "Multitasking Staff",
+      "edu": "",
+      "img": "Ankush",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mrs. Shobha R. Shinge",
+      "designation": "Multitasking Staff",
+      "edu": "",
+      "img": "Shobha",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Miss Reecha Sawant ",
+      "designation": "Librarian",
+      "edu": "",
+      "img": "Reecha",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+      "name": "Mr. Harishchandra",
+      "designation": "Watchman",
+      "edu": "",
+      "img": "Harishchandra",
+      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+.schoolimg {
+    width: 572px;
+    height: 323px;
+}
+
+.textFont {
+
+  /*background-color: cornsilk;*/
+  font-family: "Capriola", Sans-serif;
+  font-weight: 400;
+  font-size: medium;
+}
+.textFontLarge {
+    font-family: "Capriola", Sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.padding1 {
+  padding-top: 1%;
+  text-align: left;
+}
