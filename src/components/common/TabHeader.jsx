@@ -5,7 +5,7 @@ import { Grid2 } from "@mui/material";
 function TabHeader() {
   return (
     <>
-      <Grid2 container spacing={14} className=', menuFont'>
+      <Grid2 container spacing={6} className=', menuFont'>
         <Grid2 item xs={12} sm={6} className=''>
           <Link to='/dashboard'>Dashboard</Link>
         </Grid2>

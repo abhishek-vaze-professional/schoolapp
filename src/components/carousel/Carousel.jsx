@@ -8,7 +8,6 @@ import "./Carousel.css";
 
 export default function Carousel  ()  {
   const data = slides;
-  console.log(data);
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => {

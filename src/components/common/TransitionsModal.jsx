@@ -1,47 +1,31 @@
-import React from "react";
-import ProfileCard from "./ProfileCard";
-import { staffData } from "../../data/staffdata.json";
-import { Grid2 } from "@mui/material";
-import StaffProfile from './StaffProfile';
+import * as React from 'react';
 import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import './staff.css';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 const style = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 900,
+  width: 400,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
 };
-function Staff() {
+
+export default function TransitionsModal() {
   const [open, setOpen] = React.useState(false);
-  const [user, setUser] = React.useState(false);
-  const handleOpen = (user) => {
-    setOpen(true);
-    setUser(user);
-  }
+  const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
   return (
-    <div className='schoolfont'>
-      <p className="sHeader">Staff</p>
-
-      <br></br>
-      <Grid2 container spacing={2}>
-        {staffData.map((object, i) => (
-          <Grid2 item>
-            <ProfileCard user={object} className="card" handleOpen={handleOpen}></ProfileCard>
-          </Grid2>
-        ))}
-      </Grid2>
-
-      {/*<StaffProfile user={staffData[0]}></StaffProfile>*/}
+    <div>
+      <Button onClick={handleOpen}>Open modal</Button>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -57,12 +41,15 @@ function Staff() {
       >
         <Fade in={open}>
           <Box sx={style}>
-            <StaffProfile user={user}></StaffProfile>
+            <Typography id="transition-modal-title" variant="h6" component="h2">
+              Text in a modal
+            </Typography>
+            <Typography id="transition-modal-description" sx={{ mt: 2 }}>
+              Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+            </Typography>
           </Box>
         </Fade>
       </Modal>
     </div>
   );
 }
-
-export default Staff;

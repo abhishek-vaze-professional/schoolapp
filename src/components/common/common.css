@@ -35,7 +35,7 @@
 }
 .borderme {
   border: black solid;
-  padding: 5px;
+  /*padding: 5px;*/
 }
 .titleFont {
   font-weight: bolder;
@@ -51,7 +51,6 @@
 .menuFont {
   font-weight: bolder;
   font-family: "Atma", Sans-serif;
-  text-wrap-mode: nowrap;
   font-size: x-large;
   color: black;
 }
@@ -61,13 +60,33 @@ a, a:visited {
   text-decoration: none;
  }
  .paddingTab {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
  }
 a, a:hover, a:active {
   color: goldenrod;
 }
 .padding2 {
   padding-top: 2%;
+}
+
+.genimg1 {
+  width: 249px;
+  height: 191px;
+}
+
+.genimg2 {
+  width: 705px;
+  height: 517px;
+}
+.textFontLarge {
+  font-family: "Capriola", Sans-serif;
+font-weight: bolder;
+font-size: larger;
+}
+
+.schoolimg {
+  width: 572px;
+  height: 323px;
 }

@@ -12,7 +12,6 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function School() {
-  //console.log(data);
   return (
     <div className='schoolfont'>
       <p></p>

@@ -41,154 +41,264 @@
       "designation": "Graduate Teacher",
       "edu": "M.A. (Hindi) B.Ed",
       "img": "Kashi",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1989 in Goa.",
+      "Did schooling from Parsem  High School, Parsem & Higher Secondary from S.F.X. Higher Secondary, Siolim",
+      "Graduated from St. Xavier’s College, Mapusa & Post Graduation from IGNOU University.",
+      "Teaching Experience:- 11 Years",
+      "Received Nation Building award from Rotary Club Porvorim.",
+      "Worked for DIKSHA as content creator.",
+      "Working for Vidya Samiksha Kendra (SCERT)",
+      "Good in Elocution."]
     },
     {
       "name": "Mrs. Gautami Vitthal Gawas",
       "designation": "Graduate Teacher",
       "edu": "M.A. (Marathi) B.Ed",
       "img": "Gautami",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1991 in Goa.",
+      "Did schooling from Shree Hanuman Vidyalaya, Valpoi & Higher Secondary from Govt. Higher Secondary, Valpoi.",
+      "Graduated from Govt. College, Sankhalim, Bicholim & Post Graduation from IGNOU University.",
+      "Teaching Experience:- 11 Years",
+      "Felicitated in the hands of Chief Minister for delivering lesson on Prudent media in Covid Pandemic (2021)",
+      "Worked for DIKSHA as Content Creator.",
+      
+      "KO.MA.PA. Award for book written by me Pahila Vahila 2016.",
+      "Best Navodit lekhika award by Sattari Urban Co.Op. Society (2012).",
+      "Writing experience in different newspapers since 2009",
+      "Worked as a judge for taluka & state level Sane Guruji Kathamala.",
+      "Participated in state level Marathi Kavi sammelan and sahitya sammelan as a participant and resource person.",
+      "Written many scripts for radio and Doordarshan program.",
+      "Written Maha Natya on Goan freedom struggle 'Gatha Gomantakachi'.",
+      "Felicitate by Goa Marathi academy for outstanding performance of the students in Marathi subject."]
     },
     {
       "name": "Mrs. Yogita Anup Asolkar",
       "designation": "Teacher",
       "edu": "M.A. (English), M.Com, B.Ed",
       "img": "Yogita",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1988 in Goa.",
+      "Did schooling from Poira High School, Mayem & Higher Secondary from Purushottam Higher Secondary.",
+      "Graduated from Shiroda Walawalkar College & M.Com from Shiavji University & M.A from IGNOU University.",
+      "Teaching Experience:- 10 Years",
+      "Sessions conducted in basic English in other Schools.",
+      "Comparing for the programme in English & Konkani.",
+      "Taking part in Drama (konkani)."]
     },
     {
       "name": "Mrs. Swati Pradosh Naik",
       "designation": "Teacher",
       "edu": "M.A. (English), M.Com, B.Ed",
       "img": "Swati",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1991 in Goa.",
+      "Did schooling from Harmal Panchakoshi High School & Higher Secondary, Harmal, Pernem.",
+      "Graduated from St. Xavier’s College, Mapusa & currently perusing M.Sc. In Geography from IGNOU University.",
+      "Teaching Experience:- 8 Years",
+      "Guided students in Mathematics Competitions & Goa Talent Search Examination.",
+      "Like to take part in sport activities."]
     },
     {
       "name": "Mr. Subodh Chandrashekar Naik",
       "designation": "Teacher",
       "edu": "M.A. (Geography), B.Ed",
       "img": "Subodh",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1987 in Goa.",
+      "Did schooling from Shivajiraje High School, Sal & Higher Secondary from DMB Muilgao, Bicholim.",
+      "Graduated from Govt. College, Sankhalim, Bicholim.",
+      "Teaching Experience:- 8 Years",
+      "Served as member of Board of studies.",
+      "Post graduate diploma in Geo-informatics.",
+      "Trained forest officers in GIS and GPS.",
+      "worked for PWD Goa and Goa Forest Department for making maps.",
+      "Survey of Sacred Groves of entire state."]
     },
     {
       "name": "Mr. Tulsidas Shrikant Bordekar",
       "designation": "P.E. Teacher",
       "edu": "B.Sc. B.Ed(Physical Education)",
       "img": "Tulsidas",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1992 in Goa.",
+      "Did schooling from Mandre High School, Mandrem, & Higher Secondary from Harmal Panchacroshi Higher Secondary, Harmal.",
+      "Graduated from D.M.C. College, Assagao.",
+      "B.Ed. (Physical Education) at Chandrashekar Agashe college of  Physical Education, Swargate Pune, Maharastra & currently pursuing M.A. Economics.",
+      "Teaching Experience:- 10 Years.",
+      "Awarded with certificate of best coach come manager at state level Kabaddi in 2015.",
+      "Master resource person for conducting workshop on traffic and road safety for physical education teacher of Bardez.",
+      "Trained students in games like Kabaddi, Volleyball, Yoga etc.",
+      "Bronze medalist in weightlifting Championship at university level.",
+      "Judge for march past competition at St. Britto’s HS, Saraswat Vidyalaya & Dnyanprasarak Vidyalaya Mapusa on Annual days."]
     },
     {
       "name": "Mr. Shivanand Vishwanath Sawant",
       "designation": "Art Teacher ",
       "edu": "B.F.A (Painting)",
       "img": "Shivanand",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1986 in Goa.",
+      "Did schooling from Govind Gunaji Sawant High School,Bicholim, & Higher Secondary from Vividha Higher Secondary School, Navelim - Sanqualim.",
+      "Graduated from Goa College of Art Altino, Panjim.",
+      "Teaching Experience:-  8 years.",
+      "Guided 400 students of different Bal Bhavan Kendra Schools for folk dance presentation on the occasion of Liberation day at Panjim.",
+      " Appointed as resource person for different camps and workshops.",
+      "Content creator for DIKSHA portal.",
+      "Bagged many awards in Tripurari Purnima Boat festival organized by Art and Culture Goa."]
     },
     {
       "name": "Mr. Rajendra Dhabolkar",
       "designation": "Science Laboratory Assistant ",
       "edu": "B.Sc. B.Ed.",
       "img": "Rajendra",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1977 in Goa.",
+      "Did schooling from Vidya Prasarak High School,Morjim, & Higher Secondary from St. Francis Higher Secondary School, Siolim.",
+      "Graduated from Goa St. Xavier’s College, Mapusa.",
+      "Teaching Experience:-  12 years."]
     },
     {
       "name": "Mrs. Seema Sameer Kubal",
       "designation": "Teacher",
       "edu": "M.A. D.Ed",
       "img": "Seema",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1977 in Goa.",
+      "Did schooling from Malgaon English School, Malgaon, Sawantwadi & Higher Secondary from R.P.D Higher Secondary School, Sawantwadi.",
+      "Graduated from P.E.S. College of Art & Commerce, Ponda & M.A. In Marathi from Shivaji University, Kolhapur, Maharastra.",
+      "Teaching Experience:- 17 Years.",
+      "Received Nation Builder Award.",
+      " Appointed for Marathi text book Committee.",
+      " Marathi  TV lesson on Youtube.",
+      "Mulyavardan Master trainer"]
     },
     {
       "name": "Mrs. Vimal Paresh Naik",
       "designation": "Teacher",
       "edu": "B.A. D.Ed",
       "img": "Vimal",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1988 in Goa.",
+      "Did schooling from Dattaram Mantravadi Memorial  High School, Mapusa & Higher Secondary from Purushottam Walawalkar  Higher Secondary.",
+      "Graduated from DM'S College, Assagao.",
+      "Teaching Experience:- 12 Years.",
+      "Best actress in Ekankika spardha by Sakal karandak-  (Mumbai)", 
+      "Best director in  Ekankika spardha (Kala academy)", 
+      "1st place in essay writing competition (Under Aids awareness by Rotary club- Mapusa.) ",
+      "First place in essay writing competition on topic Ideal school(Shree Ganesh Vidyamandir) ",
+      "1st place in singing competition ( Saarvajanik Ganesh utsav mandal) ",
+      "Worked for DIKSHA portal as a content  creator.",
+      "Recorded a  T. V lesson (SCERT)",
+      "Guided students in patriotic singing competition, dance competition, shlok chating, monologue, ekankika spardha, story telling competition and achieved success.", 
+      "Conducted many workshops for students ( prayer singing) with sir Anil Samant .", 
+      "Conducted workshops for teachers as well in (prayer singing, Balgeet singing) etc"]
     },
     {
       "name": "Miss Janaki G. Vazarkar",
       "designation": "Teacher",
       "edu": "B.Com. D.El.Ed.",
       "img": "Janaki",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1992 in Goa.",
+      "Did schooling from & Higher Secondary from St. Francis Xavier’s Siolim.",
+      "Graduated from St. Xavier’s College Mapusa.",
+      "Teaching Experience:- 7 Years.",
+      "Content creator for DIKSHA portal.",
+      "Good at craft work & took many workshop for students.",
+      " YouTube content creator (JanakiVazarkar creativity)"]
     },
     {
       "name": "Mr. Jeetendra Ram Gaonkar",
       "designation": "Teacher",
       "edu": "B.A. D.El.Ed.",
       "img": "Jeetendra",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1996 in Goa.",
+      "Did schooling from & Higher Secondary from Govt. School, Canacona.",
+      "Graduated from P.E.S. College of Art & Commerce, Ponda & currently pursuing  M.A. (Marathi) from Shivaji University, Kolhapur, Maharastra.",
+      "Teaching Experience:- 6 Years.",
+      "Received Nation Builder Award.", 
+      "Currently also working as Master Trainer for National Education Policy 2020."]
     },
     {
       "name": "Mrs. Anuja Rohan Pednekar",
       "designation": "Teacher",
       "edu": "B.A. B.Ed",
       "img": "Anuja",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1988 in Goa.",
+      "Did schooling from Shri Hanuman Vidyalaya, Valpoi, Sattari & Higher Secondary from Govt. Higher Secondary School, Valpoi.",
+      "Graduated from Govt. College of Arts & Commerce & Science, Sankhalim.",
+      "Teaching Experience:- 6 Years."]
     },
     {
       "name": "Mrs. Rucha V. Kelkar",
       "designation": "Teacher",
       "edu": "M.Sc. M.A. (Sanskrit) B.Ed",
       "img": "Rucha",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1975 in Goa.",
+      "Did schooling from Pragati HS, Bori, Ponda & Higher Secondary from Shiroda Higher Secondary School.",
+      "Graduated from P.E.S. College, Farmagudi & Tilak Maharastra University, Pune & M.Sc. From Goa University & Currently pursuing M.A. in Sanskrit .",
+      "Teaching Experience:- 7 Years.",
+      "Worked for DIKSHA as Content Creator.",
+      "Felicitated by Rajhauns & Vidyabharati for guiding the students achieve state topper award at Goa Board.",
+      "Basic Knowledge of Kathak Dance (Answered two exams of Gandharwa Mahavidyalaya).",
+      "Basic Knowledge of Classical Singing (Vocal)",
+      "Conducted Sanskrit Sambhashan Varg.",
+      "Guided students for singing competition."]
     },
     {
       "name": "Mr. Mayur Mahesh Tamankar",
       "designation": "ICT Teacher ",
       "edu": "B.Sc. PGDCA (ICT)",
       "img": "Mayur",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": ["Born in 1983 in Goa.",
+      "Did schooling from Shri Vasant Vidyalaya, Siolim & Higher Secondary from St. Xavier’s HSS Mapusa.",
+      "Graduated from D.M.C. College, Assagao & Post Graduate Diploma in Computer Application (PGDCA) from Narayan Zatye College, Sankhalim.",
+      "Completed training course of Microsoft Certified System Engineer (MCSE)",
+      "Knowledge of Computer Assembling, Troubleshooting & Maintenance (A+ Certificate)",
+      "Teaching Experience:- 10 Years.",
+      "Attended & completed the training (till date) on Coding & Robotics Education in School organized by the Education Department of Goa.",
+      "Have a gook knowledge of sound and video editing.",
+      "Directed many Konkani drama’s, like acting & have appeared in various stage plays, drama’s etc."]
     },
     {
       "name": "Mr. Rakesh Ramesh Desai",
       "designation": "U.D.C.",
       "edu": "",
       "img": "Rakesh",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": []
     },
     {
       "name": "Mr. Durgesh Tinekar",
       "designation": "L.D.C.",
       "edu": "",
       "img": "Durgesh",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": []
     },
     {
       "name": "Mr. Suhas S. Mahale",
       "designation": "Multitasking Staff",
       "edu": "",
       "img": "Suhas",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": []
     },
     {
       "name": "Mr. Ankush S. Tulaskar",
       "designation": "Multitasking Staff",
       "edu": "",
       "img": "Ankush",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": []
     },
     {
       "name": "Mrs. Shobha R. Shinge",
       "designation": "Multitasking Staff",
       "edu": "",
       "img": "Shobha",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": []
     },
     {
       "name": "Miss Reecha Sawant ",
       "designation": "Librarian",
       "edu": "",
       "img": "Reecha",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": []
     },
     {
       "name": "Mr. Harishchandra",
       "designation": "Watchman",
       "edu": "",
       "img": "Harishchandra",
-      "details": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+      "details": []
     }
   ]
 }

@@ -3,7 +3,7 @@ import "./home.css";
 
 function home() {
   return (
-    <div className='homeAlign, homefont'>
+    <div className='homeAlign homefont'>
       <p className='homeTitle'>
         <b>ADMISSION AND WITHDRAWAL</b>
       </p>
