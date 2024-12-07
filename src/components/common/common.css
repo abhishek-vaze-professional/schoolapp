@@ -40,7 +40,6 @@
 .titleFont {
   font-weight: bolder;
   font-size: xxx-large;
-  text-wrap-mode: nowrap;
 }
 
 .nowrap {
@@ -52,11 +51,11 @@
   font-weight: bolder;
   font-family: "Atma", Sans-serif;
   font-size: x-large;
-  color: black;
+  color: #62615C;
 }
 
 a, a:visited {
-  color: black;
+  color: #62615C;
   text-decoration: none;
  }
  .paddingTab {
@@ -68,7 +67,7 @@ a, a:hover {
   color: goldenrod;
 }
 a, a:active {
-  color: black;
+  color: #62615C;
   text-decoration: none;
  }
 .padding2 {
@@ -128,4 +127,48 @@ font-size: larger;
 .phot {
   box-shadow: 10px 10px 15px gray;
 }
+
+.subtitle {
+  text-align: start;
+  font-size: x-large;
+}
+
+.marginzero {
+  margin:0px;
+}
+.paddingTop5 {
+  padding-top: 10px;
+}
+
+.paddingTop15 {
+  padding-top: 15px;
+}
+
+.paddingLeft100 {
+  padding-left: 100px;
+}
+
+.paddingLeft15 {
+  padding-left: 15px;
+}
+
+.paddingLeft30 {
+  padding-left: 30px;
+}
+
+.textColorGray {
+  color: #62615C;
+}
+
+.accordion-odd {
+  background-color: #036EA4 !important;
+  color: white !important;
+}
+
+.accordion-even {
+  background-color: white !important;;
+  color: #036EA4 !important;;
+}
+
+
 

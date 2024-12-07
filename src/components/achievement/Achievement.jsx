@@ -3,7 +3,7 @@ import AchievementTab from './AchievementTab';
 
 function Achievement() {
   return (
-    <div className='capriolafont'>
+    <div className='capriolafont textColorGray'>
         <p className='sHeader'>Achievements</p>
         <br></br>
         <AchievementTab></AchievementTab>

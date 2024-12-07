@@ -1,21 +1,21 @@
 import React from "react";
 import "./school.css";
-import { Grid2 } from "@mui/material";
 import BasicTable from "../common/BasicTable";
 import { govbodydata } from "../../data/govbody.json";
 import { primarydata } from "../../data/primarymgmt.json";
 import { secondarydata } from "../../data/secondarymgmt.json";
 import Accordion from '@mui/material/Accordion';
-import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Diversity3Icon from '@mui/icons-material/Diversity3';
+import "../common/common.css";
 
 function School() {
   return (
     <>
-      <p className="sHeader capriolafont">Our School</p>
-        <div className='schoolfont'>
+      <p className="sHeader capriolafont textColorGray">Our School</p>
+        <div className='schoolfont textColorGray'>
       <p>
         <b>Features of our school at a glance</b>
       </p>
@@ -124,8 +124,9 @@ function School() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
+          className="accordion-odd"
         >
-          GOVERNING BODY (2023 - 2026)
+         <Diversity3Icon/> <span className="paddingLeft30">GOVERNING BODY (2023 - 2026)</span>
         </AccordionSummary>
         <AccordionDetails>
           <BasicTable data={govbodydata}></BasicTable>
@@ -136,8 +137,9 @@ function School() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
+          className="accordion-even"
         >
-          SCHOOL MANAGING COMMITTEE - Primary Section - (4.9.2021 TO 3.9.2024)
+          <Diversity3Icon/> <span className="paddingLeft30">SCHOOL MANAGING COMMITTEE - Primary Section - (4.9.2021 TO 3.9.2024)</span>
         </AccordionSummary>
         <AccordionDetails>
           <BasicTable data={primarydata}></BasicTable>
@@ -148,8 +150,9 @@ function School() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
+          className="accordion-odd"
         >
-          SCHOOL MANAGING COMMITTEE - Secondary Section - (4.9.2021 TO 3.9.2024)
+          <Diversity3Icon/> <span className="paddingLeft30">SCHOOL MANAGING COMMITTEE - Secondary Section - (4.9.2021 TO 3.9.2024)</span>
         </AccordionSummary>
         <AccordionDetails>
           <BasicTable data={secondarydata}></BasicTable>

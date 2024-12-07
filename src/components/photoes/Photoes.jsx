@@ -32,7 +32,7 @@ function Photoes() {
   const handleClose = () => setOpen(false);
   const photos = photoData.photoData;
   return (
-    <div>
+    <div className="textColorGray">
       <p className='sHeader capriolafont'>Photoes</p>
       <br></br>
       <Grid2 container spacing={2}>

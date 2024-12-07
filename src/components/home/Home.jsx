@@ -4,8 +4,8 @@ import "./home.css";
 function home() {
   return (
     <>
-      <p className='sHeader capriolafont'>Home</p>
-      <div className='homeAlign homefont'>
+      <p className='sHeader capriolafont textColorGray'>Home</p>
+      <div className='homeAlign homefont textColorGray'>
         <p className='homeTitle'>
           <b>ADMISSION AND WITHDRAWAL</b>
         </p>

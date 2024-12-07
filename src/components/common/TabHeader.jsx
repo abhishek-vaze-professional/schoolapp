@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Grid2 } from "@mui/material";
+import "./common.css";
 
 function TabHeader() {
   return (
     <>
-      <Grid2 container spacing={6} className=', menuFont'>
+      <Grid2 container spacing={6} className=' menuFont textColorGray'>
         <Grid2 item xs={12} sm={6} className=''>
           <Link to='/dashboard'>Dashboard</Link>
         </Grid2>

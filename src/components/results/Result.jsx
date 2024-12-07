@@ -4,7 +4,7 @@ import ResultTab from './ResultTab';
 
 function Result() {
   return (
-    <div className='capriolafont'>
+    <div className='capriolafont textColorGray'>
         <p className='sHeader'>SCHOOL RESULT S.S.C.</p>
         <ResultTab></ResultTab>
     </div>
