@@ -7,7 +7,7 @@ import '../common/common.css';
 function genesis() {
   return <div>
     
-    <p className="textFontLarge">Genesis of School</p>
+    <p className="sHeader capriolafont">Genesis of School</p>
 
     <Grid2 container spacing={2}>
       <Grid2 item><img src={genesis1} className='schoolimg' /></Grid2>

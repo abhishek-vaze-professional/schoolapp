@@ -29,8 +29,8 @@ function Staff() {
   }
   const handleClose = () => setOpen(false);
   return (
-    <div className='schoolfont'>
-      <p className="sHeader">Staff</p>
+    <div className=''>
+      <p className="sHeader capriolafont">Staff</p>
 
       <br></br>
       <Grid2 container spacing={2}>

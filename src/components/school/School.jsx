@@ -13,11 +13,10 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function School() {
   return (
-    <div className='schoolfont'>
-      <p></p>
-      <p>
+    <>
+      <p className="sHeader capriolafont">Our School</p>
         <b></b>
-      </p>
+        <div className='schoolfont'>
       <p>
         <b>Features of our school at a glance</b>
       </p>
@@ -159,6 +158,7 @@ function School() {
       </Accordion>
       </div>
     </div>
+    </>
   );
 }
 
