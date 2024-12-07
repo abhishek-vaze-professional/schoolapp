@@ -15,7 +15,6 @@ function School() {
   return (
     <>
       <p className="sHeader capriolafont">Our School</p>
-        <b></b>
         <div className='schoolfont'>
       <p>
         <b>Features of our school at a glance</b>

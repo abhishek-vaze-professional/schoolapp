@@ -31,8 +31,6 @@ function Staff() {
   return (
     <div className=''>
       <p className="sHeader capriolafont">Staff</p>
-
-      <br></br>
       <Grid2 container spacing={2}>
         {staffData.map((object, i) => (
           <Grid2 item>

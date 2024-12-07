@@ -5,7 +5,6 @@ function home() {
   return (
     <>
       <p className='sHeader capriolafont'>Home</p>
-      <b></b>
       <div className='homeAlign homefont'>
         <p className='homeTitle'>
           <b>ADMISSION AND WITHDRAWAL</b>

@@ -10,8 +10,8 @@ function genesis() {
     <p className="sHeader capriolafont">Genesis of School</p>
 
     <Grid2 container spacing={2}>
-      <Grid2 item><img src={genesis1} className='schoolimg' /></Grid2>
-      <Grid2 item><img src={genesis2} className='schoolimg' /></Grid2>
+      <Grid2 item><img src={genesis1} className='schoolimg phot' /></Grid2>
+      <Grid2 item><img src={genesis2} className='schoolimg phot' /></Grid2>
     </Grid2>
     <Grid2 container spacing={2}>
       

@@ -8,8 +8,8 @@ function Photo(props) {
     const { loading, error, image } = useImage(photo.img, "photoes");
   return (
     <div className='pointit' onClick={handleCardClick}>
-        <div className='schoolimg'>
-            <img src={image} className='schoolimg'/>
+        <div className=''>
+            <img src={image} className='schoolimg phot'/>
         </div>
         <div className='capriolafont'>{photo.desc}</div>
     </div>

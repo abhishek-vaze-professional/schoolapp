@@ -6,7 +6,6 @@ function Result() {
   return (
     <div className='capriolafont'>
         <p className='sHeader'>SCHOOL RESULT S.S.C.</p>
-        <br></br>
         <ResultTab></ResultTab>
     </div>
   )
