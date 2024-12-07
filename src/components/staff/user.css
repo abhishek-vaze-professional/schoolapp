@@ -5,12 +5,12 @@
 }
 
 .sub-heading {
-    font-weight: normal;
+    font-weight: bold;
     font-size: small;
 }
 
 .sub-heading-center {
-    font-weight: normal;
+    font-weight: bold;
     font-size: small;
     text-align: center;
 }

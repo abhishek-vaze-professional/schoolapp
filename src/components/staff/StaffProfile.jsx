@@ -5,7 +5,7 @@ import "./user.css";
 import "../common/common.css";
 function StaffProfile(props) {
   const staff = props.user;
-  const { loading, error, image } = useImage(staff.img);
+  const { loading, error, image } = useImage(staff.img, "staff");
   return (
     <div className='profileCont borderme capriolafont'>
       <div className='picContainer '>

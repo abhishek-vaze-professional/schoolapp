@@ -3,12 +3,13 @@ import React, { useState } from "react";
 import ArrowCircleLeftRoundedIcon from '@mui/icons-material/ArrowCircleLeftRounded';
 import ArrowCircleRightRoundedIcon from '@mui/icons-material/ArrowCircleRightRounded';
 import { slides } from "../../data/carouselData.json";
-
+import useImage from '../common/useImage';
 import "./Carousel.css";
 
-export default function Carousel  ()  {
-  const data = slides;
-  const [slide, setSlide] = useState(0);
+export default function Carousel(props)  {
+  const data = props.photoes;
+  const selectedPic = props.selectedPhoto;
+  const [slide, setSlide] = useState(selectedPic.id - 1);
 
   const nextSlide = () => {
     setSlide(slide === data.length - 1 ? 0 : slide + 1);
@@ -22,10 +23,11 @@ export default function Carousel  ()  {
     <div className="carousel">
       <ArrowCircleLeftRoundedIcon onClick={prevSlide} className="arrow arrow-left" />
       {data.map((item, idx) => {
+        const { loading, error, image } = useImage(item.img, "photoes");
         return (
           <img
-            src={item.src}
-            alt={item.alt}
+            src={image}
+            alt={"image"}
             key={idx}
             className={slide === idx ? "slide" : "slide slide-hidden"}
           />

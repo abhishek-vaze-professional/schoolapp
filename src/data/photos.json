@@ -1,0 +1,25 @@
+{
+  "photoData": [
+    { "id": 1, "img": "pic1", "desc": "Morning Assembly" },
+    { "id": 2, "img": "pic2", "desc": "Expert Talk" },
+    { "id": 3, "img": "pic3", "desc": "Expert Talk on Rabbies" },
+    { "id": 4, "img": "pic4", "desc": "Expert Talk" },
+    { "id": 5, "img": "pic5", "desc": "Road safety talk" },
+    { "id": 6, "img": "pic6", "desc": "Road safety talk" },
+    { "id": 7, "img": "pic7", "desc": "Road safety talk" },
+    { "id": 8, "img": "pic8", "desc": "Best out of waste" },
+    { "id": 9, "img": "pic9", "desc": "Best out of waste" },
+    { "id": 10, "img": "pic10", "desc": "Garden cleaning" },
+    { "id": 11, "img": "pic11", "desc": "Plantation" },
+    { "id": 12, "img": "pic12", "desc": "Health & dental checkup" },
+    { "id": 13, "img": "pic13", "desc": "Haemoglobin check-up" },
+    { "id": 14, "img": "pic14", "desc": "Paper bag making" },
+    { "id": 15, "img": "pic15", "desc": "Paper bags distribution" },
+    { "id": 16, "img": "pic16", "desc": "Waste Management Talk" },
+    { "id": 17, "img": "pic17", "desc": "Segregation of the waste" },
+    { "id": 18, "img": "pic18", "desc": "Ek Rakhi Sainika sathi" },
+    { "id": 19, "img": "pic19", "desc": "Aaji Ajoba Diwas" },
+    { "id": 20, "img": "pic20", "desc": "Field Trip" }
+
+  ]
+}

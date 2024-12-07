@@ -90,3 +90,33 @@ font-size: larger;
   width: 572px;
   height: 323px;
 }
+
+.sHeader {
+  font-size: xx-large;
+}
+
+.capriolafont {
+  font-family: "Capriola", Sans-serif;
+}
+
+.leftit {
+  text-align: left;
+}
+.padleft {
+  padding-left: 40px;
+}
+
+.pad25 {
+  padding: 25px;
+  font-size: smaller;
+}
+
+.elipseit {
+  display: block;/* or inline-block */
+  text-overflow: ellipsis;
+
+}
+
+.pointit {
+  cursor: pointer;
+}

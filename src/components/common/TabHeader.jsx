@@ -19,13 +19,16 @@ function TabHeader() {
           <Link to='/staff'>Staff</Link>
         </Grid2>
         <Grid2 item xs={12} sm={6} className=''>
-          <Link to='/genesis'>Achivements</Link>
+          <Link to='/result'>Results</Link>
+        </Grid2>
+        <Grid2 item xs={12} sm={6} className=''>
+          <Link to='/achievement'>Achivements</Link>
         </Grid2>
         <Grid2 item xs={12} sm={6} className=''>
           <Link to='/genesis'>Genesis of School</Link>
         </Grid2>
         <Grid2 item xs={12} sm={6} className=''>
-          <Link to='/carousel'>Photoes</Link>
+          <Link to='/photoes'>Photoes</Link>
         </Grid2>
       </Grid2>
     </>

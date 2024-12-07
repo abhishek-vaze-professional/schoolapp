@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const useImage = (fileName) => {
+const useImage = (fileName, folderName) => {
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
     const [image, setImage] = useState(null)
@@ -8,7 +8,7 @@ const useImage = (fileName) => {
     useEffect(() => {
         const fetchImage = async () => {
             try {
-                const response = await import(`../../assets/images/staff/${fileName}`+`.jpg`) // change relative path to suit your needs
+                const response = await import(`../../assets/images/${folderName}/${fileName}`+`.jpg`) // change relative path to suit your needs
                 setImage(response.default)
             } catch (err) {
                 setError(err)
