@@ -55,7 +55,7 @@
   color: black;
 }
 
-a, a:visited, a:active {
+a, a:visited {
   color: black;
   text-decoration: none;
  }
@@ -67,6 +67,10 @@ a, a:visited, a:active {
 a, a:hover {
   color: goldenrod;
 }
+a, a:active {
+  color: black;
+  text-decoration: none;
+ }
 .padding2 {
   padding-top: 2%;
 }
