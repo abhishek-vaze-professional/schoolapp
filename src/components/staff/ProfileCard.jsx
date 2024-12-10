@@ -47,18 +47,13 @@ const ExpandMore = styled((props) => {
 }));
 
 export default function ProfileCard(props) {
-  const [expanded, setExpanded] = React.useState(false);
-  const navigate = useNavigate();
 const staff = props.user;
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
   const handleCardClick = () => {
     props.handleOpen(staff);
   };
   const { loading, error, image } = useImage(staff.img, "staff");
   return (
-    <Card sx={{ maxWidth: 350, minWidth:350, cursor: "pointer" }} onClick={handleCardClick}>
+    <Card sx={{ maxWidth: 300, minWidth:300, cursor: "pointer" }} onClick={handleCardClick}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -70,28 +65,11 @@ const staff = props.user;
       />
       <CardMedia
         component="img"
-        height="350"
+        height="300"
         alt="profile pic"
         image={image}
       >
       </CardMedia>
-      {/*<CardActions disableSpacing>
-        <ExpandMore
-          expand={expanded}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="show more"
-        >
-          <ExpandMoreIcon />
-        </ExpandMore>
-      </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-            <p className ="heading" sx={{ marginBottom: 2 }}>{staff.name}</p>
-            <CardDetails text={staff.designation} icon={<WorkIcon></WorkIcon>}/>
-            <CardDetails text={staff.edu} icon={<WorkspacePremiumIcon> </WorkspacePremiumIcon>}/>
-        </CardContent>
-      </Collapse>*/}
     </Card>
   );
 }

@@ -17,6 +17,7 @@ const style = {
   width: {
     xs:"300", sm:"350", md:"400",lg:"500",xl:"800"
   },
+  height:{xs:"500", sm:"auto"},
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
