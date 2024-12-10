@@ -23,7 +23,6 @@ function dashboard() {
       <br></br>
       <div container spacing={2} className='padding1'>
         <p className=' textFont textColorGray'>
-          {" "}
           Goa VidyaPratishthan’s SHREE GANESH VIDYAMANDIR was founded in 19____ by ______ . It is recognized by the Directorate of Education and the Goa S.S.C. Board. The School is managed
           by___________. The School is situated at the top of a hill in a healthy locality.
         </p>

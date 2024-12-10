@@ -19,7 +19,6 @@
     cursor: pointer;
 }
 .profileCont{
-    max-width: 900px;
     max-height: 600px;
     overflow-y: scroll
 }
@@ -37,7 +36,7 @@
     
 }
 .pic {
-    padding-left: 300px;
+    /*padding-left: 300px;*/
     width: 300px;
     height:350px;
 }

@@ -11,11 +11,14 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 900,
+  width: {
+    xs:"300", sm:"350", md:"400",lg:"500",xl:"800"
+  },
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
+  lineHeight: 2
 };
 
 function AchievementList(props) {
@@ -41,12 +44,13 @@ function AchievementList(props) {
             m: 1,
             width: 200,
             height: 200,
+            lineHeight: 2
           },
         }}
       >
         {data.map((object, i) => (
           <Paper elevation={20} onClick={() => handleOpen(object)}>
-            <div className='pad25 elipseit' ><p dangerouslySetInnerHTML={{__html: getEliptedText(object)}}/></div>
+            <Box className='pad25 elipseit' ><p dangerouslySetInnerHTML={{__html: getEliptedText(object)}}/></Box>
           </Paper>
         ))}
       </Box>

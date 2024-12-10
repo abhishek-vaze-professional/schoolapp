@@ -37,7 +37,7 @@ export default function Carousel(props)  {
         onClick={nextSlide}
         className="arrow arrow-right"
       />
-      <span className="indicators">
+      {/*<span className="indicators">
         {data.map((_, idx) => {
           return (
             <button
@@ -49,7 +49,7 @@ export default function Carousel(props)  {
             ></button>
           );
         })}
-      </span>
+      </span>*/}
     </div>
   );
 };
