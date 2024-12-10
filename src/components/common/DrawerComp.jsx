@@ -32,7 +32,7 @@ const DrawerComp = () => {
           {pages.map((page, index) => (
             <ListItemButton key={index}>
               <ListItemIcon>
-                <ListItemText><Link to={page.path} >{page.title}</Link></ListItemText>
+                <ListItemText onClick={() => setOpenDrawer(!openDrawer)}><Link to={page.path} >{page.title}</Link></ListItemText>
               </ListItemIcon>
             </ListItemButton>
           ))}
