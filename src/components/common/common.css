@@ -40,6 +40,7 @@
 .titleFont {
   font-weight: bolder;
   font-size: xxx-large;
+  color: #036EA4;
 }
 
 .nowrap {
@@ -48,10 +49,10 @@
 }
 
 .menuFont {
-  font-weight: bolder;
-  font-family: "Atma", Sans-serif;
-  font-size: x-large;
-  color: #62615C;
+  font-weight: bolder !important;
+  font-family: "Atma", Sans-serif !important;
+  font-size: x-large !important;
+  color: #62615C !important;
 }
 
 a, a:visited {
@@ -129,6 +130,7 @@ font-size: larger;
 }
 
 .subtitle {
+  color: #036EA4;
   text-align: start;
   font-size: x-large;
 }
@@ -168,6 +170,20 @@ font-size: larger;
 .accordion-even {
   background-color: white !important;;
   color: #036EA4 !important;;
+}
+.schoolbg {
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  background-image: url('../../assets/images/school-bg.jpg');;
+}
+
+.resIg {
+  width:100%;
+  height:100%;
+}
+.marginTop15 {
+  margin-top: 15px;
 }
 
 

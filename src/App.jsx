@@ -35,7 +35,7 @@ function App() {
             <Route path="/achievement" element={<Achievement />} />
             <Route path="*" element={ <Staff />} />
           </Routes>
-        </BrowserRouter>
+  </BrowserRouter> 
         {/*<Footer/> */}
       </div>
       <div className="fill-space"></div>

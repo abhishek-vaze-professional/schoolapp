@@ -1,13 +1,33 @@
 import React from "react";
 import "./common.css";
 import schoolLogo from "../../assets/images/logo.jpg";
-import { Container, Divider, Grid2 } from "@mui/material";
+import { Container, Divider, Grid2, Box } from "@mui/material";
 import TabHeader from "./TabHeader";
+import schoolbg from "../../assets/images/school-bg.jpg";
 
 function Header() {
   return (
-    <div>
-      <div className='header'>
+    <>
+    <Container className="" maxWidth="xxl">
+      <Box sx={{
+        height: 'calc((95vw*903)/1600',
+        width: "95 vw"
+      }} className=""><img src={schoolbg} alt="School" className="resIg"/></Box>
+      <Box sx={{ background: "transparent", top:10, left: 30, position: "absolute", zIndex:1100, height: 'calc((10vw*262)/202)',
+        width: "10 vw" }}>
+      <img src={schoolLogo} className="resIg" />
+      </Box>
+      <Box sx={{ background: "transparent", top:{xl:90, lg:75, md: 60,sm:20,xs:10}, left: {xl:240, lg:200, md: 180,sm:140,xs:100}, position: "absolute", zIndex:1100 }}>
+            <Box sx= {{color: "#036EA4",  textAlign: "start",fontSize: {
+              xs:"x-Small", sm:"small", md:"medium",lg:"large",xl:"x-large"
+            }}} className='capriolafont marginzero paddingTop15'>Goa Vidya Pratishthan’s</Box>
+            <Box sx= {{color: "#036EA4",  fontWeight: "bolder",fontSize: {
+              xs:"Small", sm:"medium", md:"large",lg:"xx-large",xl:"xxx-large"
+            }}} className='capriolafont marginzero paddingTop5'>SHREE GANESH VIDYA MANDIR</Box>
+      </Box>
+      <TabHeader></TabHeader>
+    </Container>
+      {/*<div className='header'>
         <Grid2 container spacing={20} className=''>
           <Grid2 item xs={12} sm={12} md={2} className=''>
             <img src={schoolLogo} />
@@ -38,8 +58,8 @@ function Header() {
           <TabHeader></TabHeader>
         </div>
         <Divider variant='middle' sx={{ borderColor: "#036EA4", borderWidth: "2px", marginBottom: "10px" }}></Divider>
-      </div>
-    </div>
+  </div>*/}
+  </>
   );
 }
 
