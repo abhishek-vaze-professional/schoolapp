@@ -33,12 +33,13 @@ function App() {
             <Route path="/carousel" element={<Carousel />} />
             <Route path="/result" element={<Result />} />
             <Route path="/achievement" element={<Achievement />} />
-            <Route path="*" element={ <Staff />} />
+            <Route path="*" element={ <Dashboard />} />
           </Routes>
   </BrowserRouter> 
-        {/*<Footer/> */}
+        
       </div>
       <div className="fill-space"></div>
+      {<Footer/>}
       </div>
     </>
   )
