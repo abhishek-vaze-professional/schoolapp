@@ -1,13 +1,14 @@
 import React from "react";
 import Photo from "./Photo";
 import photoData from "../../data/photos.json";
-import { Grid2 } from "@mui/material";
+import { Grid2, useMediaQuery, useTheme } from "@mui/material";
 import "../common/common.css";
 import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Carousel from '../carousel/Carousel';
+import QuiltedImageList from "../common/QuiltedImageList";
 
 
 const style = {
@@ -25,6 +26,8 @@ const style = {
 };
 
 function Photoes() {
+  const theme = useTheme();
+  const isMatch = useMediaQuery(theme.breakpoints.down("md"));
   const [open, setOpen] = React.useState(false);
   const [photo, setPhoto] = React.useState();
   const handleOpen = (photo) => {
@@ -37,13 +40,22 @@ function Photoes() {
     <div className="textColorGray">
       <p className='sHeader capriolafont'>Photoes</p>
       <br></br>
-      <Grid2 container spacing={2}>
+      {!isMatch ? (<Grid2 container spacing={2}>
         {photos.map((object, i) => (
           <Grid2 item>
             <Photo photo={object} handleOpen={handleOpen} />
           </Grid2>
         ))}
-      </Grid2>
+      </Grid2>):(<QuiltedImageList images={photos} handleOpen={handleOpen}></QuiltedImageList>)}
+      {/*<Grid2 container spacing={2}>
+        {photos.map((object, i) => (
+          <Grid2 item>
+            <Photo photo={object} handleOpen={handleOpen} />
+          </Grid2>
+        ))}
+      </Grid2>*/}
+
+      
 
       <Modal
         aria-labelledby='transition-modal-title'
