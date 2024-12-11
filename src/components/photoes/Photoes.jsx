@@ -38,7 +38,7 @@ function Photoes() {
   const photos = photoData.photoData;
   return (
     <div className="textColorGray">
-      <p className='sHeader capriolafont'>Photoes</p>
+      <p className='sHeader capriolafont'>Gallary</p>
       <br></br>
       {!isMatch ? (<Grid2 container spacing={2}>
         {photos.map((object, i) => (
