@@ -12,13 +12,18 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: {
-    xs:"300", sm:"350", md:"400",lg:"500",xl:"800"
+    xs:"250px", sm:"350px", md:"400px",lg:"700px",xl:"900px"
   },
+  fontSize: {
+    xs:"x-Small", sm:"small", md:"medium",lg:"large",xl:"large"
+  },
+  overflow: 'scroll',
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
-  lineHeight: 2
+  lineHeight: 2,
+  height: "350px"
 };
 
 function AchievementList(props) {
