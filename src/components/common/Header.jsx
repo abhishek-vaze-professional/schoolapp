@@ -12,7 +12,7 @@ function Header() {
       <Box sx={{
         height: 'calc((95vw*903)/1600',
         width: "95 vw"
-      }} className=""><img src={schoolbg} alt="School" className="resIg"/></Box>
+      }} className=""><img src={schoolbg} alt="School" className="resIg fader"/></Box>
       <Box sx={{ background: "transparent", top:10, left: 30, position: "absolute", zIndex:1100, height: 'calc((10vw*262)/202)',
         width: "10 vw" }}>
       <img src={schoolLogo} className="resIg" />

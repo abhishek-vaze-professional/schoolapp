@@ -175,7 +175,7 @@ font-size: larger;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
-  background-image: url('../../assets/images/school-bg.jpg');;
+  background-image: url('../../assets/images/school-bg.jpg');
 }
 
 .resIg {
@@ -186,5 +186,8 @@ font-size: larger;
   margin-top: 15px;
 }
 
+.fader {
+  mask-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) -5%, rgba(0, 0, 0, 0.65) 50%);
+}
 
 
