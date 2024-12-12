@@ -7,9 +7,19 @@ import "./dashboard.css";
 import "../common/common.css";
 
 function dashboard() {
+  /*let index = 1;
+  const changeImg = () => {
+    index++;
+    img.setAttribute('src', `../../assets/images/pic${index}.jpg`);
+
+  if (index === 3) {
+    index = 0;
+  }
+};*/
+//setInterval(changeImg, 3000);
   return (
     <>
-      <Grid2 container spacing={2} className=''>
+      {/*<Grid2 container spacing={2} className=''>
         <Grid2 item xs={12} sm={12} md={4} className=''>
           <img src={schoolImg1} className='schoolimg' />
         </Grid2>
@@ -19,7 +29,8 @@ function dashboard() {
         <Grid2 item xs={12} sm={12} md={4} className=''>
           <img src={schoolImg3} className='schoolimg' />
         </Grid2>
-      </Grid2>
+  </Grid2>*/}
+  <p className='sHeader textFont textColorGray'>Dashboard</p>
       <br></br>
       <div container spacing={2} className='padding1'>
         <p className=' textFont textColorGray'>

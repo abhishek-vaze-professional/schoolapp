@@ -158,6 +158,7 @@ function School() {
           <BasicTable data={secondarydata}></BasicTable>
         </AccordionDetails>
       </Accordion>
+      <br></br>
       </div>
     </div>
     </>
