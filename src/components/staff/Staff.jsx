@@ -62,6 +62,7 @@ function Staff() {
           </Box>
         </Fade>
       </Modal>
+      <br></br>
     </div>
   );
 }
