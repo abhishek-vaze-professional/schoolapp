@@ -1,11 +1,15 @@
 import React from "react";
-import { Container, Box, Stack, Divider } from "@mui/material";
+import { Container, Box, Stack, Divider, Tooltip } from "@mui/material";
 import "./common.css";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailIcon from "@mui/icons-material/Mail";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 function Footer() {
+
+  function copyToClipBoard (text) {
+    navigator.clipboard.writeText(text);
+  }
   return (
     <>
       <Container
@@ -135,21 +139,26 @@ function Footer() {
                 </span>
                 Email :{" "}
               </span>
-              <span className="valueFoot">
+              <Tooltip title="Click to copy email to clipboard">
+              <span className="valueFoot pointit" onClick={() => copyToClipBoard("highschoolshreeganesh@gmail.com")}>
                 <b>highschoolshreeganesh@gmail.com </b>{" "}
               </span>
+              </Tooltip>
               <span className="lableFoot">
                 <span className="iconFoot crimsonColor">
                   <PhoneIcon />
                 </span>
                 Contact. No. :{" "}
               </span>
-              <span className="valueFoot">
+              <Tooltip title="Click to copy contact number to clipboard">
+              <span className="valueFoot pointit" onClick={() => copyToClipBoard("7058164535")}>
                 <b>7058164535 </b>{" "}
-              </span><br></br>
+              </span>
+              </Tooltip>
+              <br></br>
               <span className="iconFoot crimsonColor">
                   <LocationOnIcon />
-                </span> <span className="locateme"> <a href="https://maps.app.goo.gl/c1xP8kw5bZPCBbwJA" style={{color:'white'}}>Location</a></span>
+                </span> <span className="locateme"> <a href="https://maps.app.goo.gl/c1xP8kw5bZPCBbwJA" target="_blank" style={{color:'white'}}>Location</a></span>
             </Box>
           </Box>
           <Box
