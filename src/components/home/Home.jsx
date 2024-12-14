@@ -1,5 +1,11 @@
 import React from "react";
 import "./home.css";
+import { Stack, Box } from "@mui/material";
+import primaryBoy from "../../assets/images/uniform/primary-boy.jpg";
+import primaryGirl from "../../assets/images/uniform/primary-girl.jpg";
+import secondaryBoy from "../../assets/images/uniform/secondary-boy.jpg";
+import secondaryGirl from "../../assets/images/uniform/secondary-girl.jpg";
+
 
 function home() {
   return (
@@ -62,7 +68,18 @@ function home() {
         <p>
           <b>SCHOOL UNIFORMS</b>
         </p>
-        GIRLS: BOYS:
+        <p> Primary </p>
+        <Stack direction="row" spacing={4} className="menuFont marginTop15">
+          
+
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {primaryBoy} className="pboy"/></Box>
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {primaryGirl} className="pgirl pboy"/></Box>
+          </Stack>
+          <p> Secondary </p>
+          <Stack direction="row" spacing={4} className="menuFont marginTop15">
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {secondaryBoy} className="sboy pboy" /></Box>
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {secondaryGirl} className="sgirl pboy"/></Box>
+        </Stack>
         <br></br>
         <br></br>
         <p>
