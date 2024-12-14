@@ -33,5 +33,6 @@ export function validateMobileNumber(mob) {
       }
       return "";
  }
+ export const whiteBoxStyle = {backgroundColor: "white", padding:{xs: "5px", sm: "10px", md:"15px", lg:"30px", xl:"50px"}};
 
   

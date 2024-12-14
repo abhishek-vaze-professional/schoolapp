@@ -5,6 +5,8 @@ import schoolImg2 from "../../assets/images/Picture2.jpg";
 import schoolImg3 from "../../assets/images/Picture3.jpg";
 import "./dashboard.css";
 import "../common/common.css";
+import { Box } from "@mui/material"; 
+import { whiteBoxStyle } from "../common/commonUtil";
 
 function dashboard() {
   /*let index = 1;
@@ -32,19 +34,22 @@ function dashboard() {
   </Grid2>*/}
   <p className='sHeader textFont textColorGray'>Dashboard</p>
       <br></br>
-      <div container spacing={2} className='padding1'>
+      <Box className="content textColorGray" sx={whiteBoxStyle}>
         <p className=' textFont textColorGray'>
           Goa VidyaPratishthan’s SHREE GANESH VIDYAMANDIR was founded in 19____ by ______ . It is recognized by the Directorate of Education and the Goa S.S.C. Board. The School is managed
           by___________. The School is situated at the top of a hill in a healthy locality.
         </p>
+        </Box>
         <br></br>
+        <Box className="content textColorGray" sx={whiteBoxStyle}>
         <p className=' textFontLarge textColorGray'>“MISSION STATEMENT”</p>
 
         <p className=' textFont textColorGray'>
           We are here to achieve an Holistic development and Nationalist spirit in every Student. The Excellency in every sphere of life and Experimentative nature. To develop every potential with
           Equity and Engaged them with social agencies looking after the upliftment of humanity and culture. To produce Empowered citizen who are fit to be Employ with Ethics.
         </p>
-      </div>
+      </Box>
+      <br></br>
     </>
   );
 }
