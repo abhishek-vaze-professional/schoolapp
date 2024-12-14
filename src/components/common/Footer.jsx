@@ -212,7 +212,7 @@ function Footer() {
               <span className='valueFoot locateme'>
                 {" "}
                 <a href='https://youtube.com/@shreeganeshvidyamandir?si=fgyN4_B_lFbw_Zwj' target='_blank' style={{ color: "white" }}>
-                  Schhol YouTube Channel
+                  School YouTube Channel
                 </a>
               </span>
             </Box>
