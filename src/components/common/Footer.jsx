@@ -3,30 +3,32 @@ import { Container, Box, Stack, Divider, Tooltip } from "@mui/material";
 import "./common.css";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailIcon from "@mui/icons-material/Mail";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 function Footer() {
-
-  function copyToClipBoard (text) {
+  function copyToClipBoard(text) {
     navigator.clipboard.writeText(text);
   }
   return (
     <>
       <Container
-        className=""
-        maxWidth="xxl"
+        className=''
+        maxWidth='xxl'
         sx={{
-          height: "300px",
+          height: "450px",
           width: "100vw",
           backgroundColor: "slategrey",
-          position: "absolute",
-          left: 0,
+          position: "relative",
+          left: "-8px",
           zIndex: 1100,
           color: "white",
+          bottom: "0px",
+          marginBottom:"-8px"
         }}
       >
-        <Stack direction="column" divider={<Divider orientation="vertical" flexItem />}
-  spacing={2}>
+        <Stack direction='column' divider={<Divider orientation='vertical' flexItem />} spacing={2}>
           <Box
             sx={{
               background: "transparent",
@@ -47,7 +49,7 @@ function Footer() {
                   xl: "medium",
                 },
               }}
-              className="capriolafont marginzero "
+              className='capriolafont marginzero '
             >
               Goa Vidya Pratishthan’s
             </Box>
@@ -62,7 +64,7 @@ function Footer() {
                   xl: "x-large",
                 },
               }}
-              className="capriolafont marginzero"
+              className='capriolafont marginzero'
             >
               SHREE GANESH VIDYA MANDIR
             </Box>
@@ -77,10 +79,9 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className="capriolafont marginzero"
+              className='capriolafont marginzero'
             >
-              (Recognised by the Goa Board of Secondary and Higher Secondary
-              Education, Porvorim)
+              (Recognised by the Goa Board of Secondary and Higher Secondary Education, Porvorim)
             </Box>
             <Box
               sx={{
@@ -93,14 +94,14 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className="capriolafont marginzero"
+              className='capriolafont marginzero'
             >
-              <span className="">Index No. : </span>{" "}
-              <span className="valueFoot">
+              <span className=''>Index No. : </span>{" "}
+              <span className='valueFoot' style={{letterSpacing: "2px"}}>
                 <b>01.58</b>{" "}
               </span>
-              <span className="lableFoot">UDISE CODE : </span>{" "}
-              <span className="valueFoot">
+              <span className='lableFoot'>UDISE CODE : </span>{" "}
+              <span className='valueFoot' style={{letterSpacing: "2px"}}>
                 <b> 30010200223 </b>
               </span>
             </Box>
@@ -115,10 +116,9 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className="capriolafont marginzero"
+              className='capriolafont marginzero'
             >
-              Ganeshpuri, Mhapsa, Bardez, Goa - 403 507. (Affiliated to Vidya
-              Bharati, Goa)
+              Ganeshpuri, Mhapsa, Bardez, Goa - 403 507. (Affiliated to Vidya Bharati, Goa)
             </Box>
             <Box
               sx={{
@@ -131,44 +131,123 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className="capriolafont marginzero"
+              className='capriolafont marginzero'
             >
-              <span className="">
-                <span className="iconFoot crimsonColor">
+              <span className=''>
+                <span className='iconFoot crimsonColor'>
                   <MailIcon />
                 </span>
                 Email :{" "}
               </span>
-              <Tooltip title="Click to copy email to clipboard">
-              <span className="valueFoot pointit" onClick={() => copyToClipBoard("highschoolshreeganesh@gmail.com")}>
-                <b>highschoolshreeganesh@gmail.com </b>{" "}
-              </span>
+              <Tooltip title='Click to copy email to clipboard'>
+                <span className='valueFoot pointit' onClick={() => copyToClipBoard("highschoolshreeganesh@gmail.com")} style={{letterSpacing: "2px"}}>
+                  <b>highschoolshreeganesh@gmail.com </b>{" "}
+                </span>
               </Tooltip>
-              <span className="lableFoot">
-                <span className="iconFoot crimsonColor">
+            </Box>
+            <Box
+              sx={{
+                paddingTop: "10px",
+                fontSize: {
+                  xs: "x-Small",
+                  sm: "Small",
+                  md: "small",
+                  lg: "small",
+                  xl: "small",
+                },
+              }}
+              className='capriolafont marginzero'
+            >
+              <span className=''>
+                <span className='iconFoot crimsonColor'>
                   <PhoneIcon />
                 </span>
                 Contact. No. :{" "}
               </span>
-              <Tooltip title="Click to copy contact number to clipboard">
-              <span className="valueFoot pointit" onClick={() => copyToClipBoard("7058164535")}>
-                <b>7058164535 </b>{" "}
-              </span>
+              <Tooltip title='Click to copy contact number to clipboard'>
+                <span className='valueFoot pointit' onClick={() => copyToClipBoard("7058164535")} style={{letterSpacing: "2px"}}>
+                  <b>7058164535 </b>{" "}
+                </span>
               </Tooltip>
-              <br></br>
-              <span className="iconFoot crimsonColor">
-                  <LocationOnIcon />
-                </span> <span className="locateme"> <a href="https://maps.app.goo.gl/c1xP8kw5bZPCBbwJA" target="_blank" style={{color:'white'}}>Location</a></span>
             </Box>
-          </Box>
-          <Box
+            <Box
+              sx={{
+                paddingTop: "10px",
+                fontSize: {
+                  xs: "x-Small",
+                  sm: "Small",
+                  md: "small",
+                  lg: "small",
+                  xl: "small",
+                },
+              }}
+              className='capriolafont marginzero'
+            >
+              <span className='iconFoot crimsonColor'>
+                <LocationOnIcon />
+              </span>{" "}
+              <span className='locateme'>
+                {" "}
+                <a href='https://maps.app.goo.gl/c1xP8kw5bZPCBbwJA' target='_blank' style={{ color: "white" }}>
+                  Location
+                </a>
+              </span>
+            </Box>
+            <Box
+              sx={{
+                paddingTop: "10px",
+                fontSize: {
+                  xs: "x-Small",
+                  sm: "Small",
+                  md: "small",
+                  lg: "small",
+                  xl: "small",
+                },
+              }}
+              className='capriolafont marginzero'
+            >
+              <span>
+                <YouTubeIcon className='iconFoot crimsonColor' style={{ backgroundColor: "white" }} />
+              </span>
+              <span className='valueFoot locateme'>
+                {" "}
+                <a href='https://youtube.com/@shreeganeshvidyamandir?si=fgyN4_B_lFbw_Zwj' target='_blank' style={{ color: "white" }}>
+                  Schhol YouTube Channel
+                </a>
+              </span>
+            </Box>
+            <Box
+              sx={{
+                paddingTop: "10px",
+                fontSize: {
+                  xs: "x-Small",
+                  sm: "Small",
+                  md: "small",
+                  lg: "small",
+                  xl: "small",
+                },
+              }}
+              className='capriolafont marginzero'
+            >
+              {" "}
+              <span>
+                <FacebookIcon className='iconFoot ' style={{ backgroundColor: "white", color: "#0866ff" }} />
+              </span>
+              <span className='valueFoot locateme'>
+                <a href='https://www.facebook.com/shreeganesh.vidyamandir?mibextid=ZbWKwL' target='_blank' style={{ color: "white" }}>
+                  School Facebook Page 
+                </a>
+              </span>
+            </Box>
+            <Box
             sx={{
-              paddingTop: "30px",
+              paddingTop: "60px",
             }}
           >
-            Copyright © 2024 Shree Ganesh Vidyamandir High School. All rights
-            reserved
+            Copyright © 2024 Shree Ganesh Vidyamandir High School. All rights reserved
           </Box>
+          </Box>
+          
         </Stack>
       </Container>
     </>

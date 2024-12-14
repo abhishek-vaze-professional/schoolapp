@@ -210,7 +210,7 @@ font-size: larger;
   color: crimson;
 }
  .locateme{
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-decoration: underline;
  }
 
