@@ -8,6 +8,7 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import './staff.css';
+import '../common/common.css';
 
 const style = {
   position: 'absolute',
@@ -34,6 +35,7 @@ function Staff() {
   return (
     <div className=''>
       <p className="sHeader capriolafont textColorGray">Staff</p>
+      <div className='content'>
       <Grid2 container spacing={2}>
         {staffData.map((object, i) => (
           <Grid2 item>
@@ -41,6 +43,7 @@ function Staff() {
           </Grid2>
         ))}
       </Grid2>
+      </div>
 
       {/*<StaffProfile user={staffData[0]}></StaffProfile>*/}
       <Modal

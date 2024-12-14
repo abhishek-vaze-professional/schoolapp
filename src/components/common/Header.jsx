@@ -17,7 +17,7 @@ function Header() {
         width: "10 vw" }}>
       <img src={schoolLogo} className="resIg" />
       </Box>
-      <Box sx={{ background: "transparent", top:{xl:90, lg:75, md: 60,sm:20,xs:10}, left: {xl:240, lg:200, md: 180,sm:140,xs:100}, position: "absolute", zIndex:1100 }}>
+      <Box sx={{ background: "transparent", top:{xl:90, lg:75, md: 60,sm:20,xs:10}, left: {xl:260, lg:200, md: 180,sm:140,xs:100}, position: "absolute", zIndex:1100 }}>
             <Box sx= {{color: "#036EA4",  textAlign: "start",fontSize: {
               xs:"x-Small", sm:"small", md:"medium",lg:"large",xl:"x-large"
             }}} className='capriolafont marginzero paddingTop15'>Goa Vidya Pratishthan’s</Box>

@@ -210,4 +210,10 @@ font-size: larger;
   text-decoration: underline;
  }
 
+ .content {
+  font-family: "Capriola", Sans-serif;
+  text-align: left;
+  margin-left:15px;
+}
+
 

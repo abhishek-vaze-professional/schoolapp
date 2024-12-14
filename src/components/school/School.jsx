@@ -10,12 +10,14 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Diversity3Icon from '@mui/icons-material/Diversity3';
 import "../common/common.css";
+import { Box } from "@mui/material"; 
+import { whiteBoxStyle } from "../common/commonUtil";
 
 function School() {
   return (
     <>
       <p className="sHeader capriolafont textColorGray">Our School</p>
-        <div className='schoolfont textColorGray'>
+      <Box className="content textColorGray" sx={whiteBoxStyle}>
       <p>
         <b>Features of our school at a glance</b>
       </p>
@@ -38,6 +40,7 @@ function School() {
         <li>Dedicated and energetic galaxy of staff, Parents - dedicated and ever ready to help </li>
         <li>Homely environment School is second home of students and teachers</li>
       </ul>
+      </Box>
       <br></br>
       <br></br>
 {/*
@@ -118,7 +121,7 @@ function School() {
         <li>Mr. Shripad Patnekar Member</li>
         <li>A.D.E.I Rep. of Education Dept.</li>
   </ol> */}
-      <div>
+      <Box className="content textColorGray" sx={whiteBoxStyle}>
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -158,9 +161,8 @@ function School() {
           <BasicTable data={secondarydata}></BasicTable>
         </AccordionDetails>
       </Accordion>
+      </Box>
       <br></br>
-      </div>
-    </div>
     </>
   );
 }
