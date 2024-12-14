@@ -75,6 +75,7 @@ function home() {
         </ol>
         </Box>
         <br></br>
+        <Box className="whiteBox" sx={whiteBoxStyle}>
         <p>
           <b>SCHOOL UNIFORMS</b>
         </p>
@@ -82,14 +83,15 @@ function home() {
         <Stack direction="row" spacing={4} className="menuFont marginTop15">
           
 
-          <Box sx={{ width: "200 px", height:"354px"}}><img src = {primaryBoy} className="pboy"/></Box>
-          <Box sx={{ width: "200 px", height:"354px"}}><img src = {primaryGirl} className="pgirl pboy"/></Box>
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {primaryBoy} className="pboy uniform"/></Box>
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {primaryGirl} className="pgirl pboy uniform"/></Box>
           </Stack>
           <p> Secondary </p>
           <Stack direction="row" spacing={4} className="menuFont marginTop15">
-          <Box sx={{ width: "200 px", height:"354px"}}><img src = {secondaryBoy} className="sboy pboy" /></Box>
-          <Box sx={{ width: "200 px", height:"354px"}}><img src = {secondaryGirl} className="sgirl pboy"/></Box>
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {secondaryBoy} className="sboy pboy uniform" /></Box>
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {secondaryGirl} className="sgirl pboy uniform"/></Box>
         </Stack>
+        </Box>
         <br></br>
         <br></br>
         <Box className="whiteBox" sx={whiteBoxStyle}>

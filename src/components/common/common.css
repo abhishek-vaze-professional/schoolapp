@@ -129,6 +129,10 @@ font-size: larger;
   box-shadow: 10px 10px 15px gray;
 }
 
+.uniform {
+  box-shadow: 10px 10px 15px 15px gray;
+}
+
 .subtitle {
   color: #036EA4;
   text-align: start;
