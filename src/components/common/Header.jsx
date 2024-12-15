@@ -1,6 +1,6 @@
 import React from "react";
 import "./common.css";
-import schoolLogo from "../../assets/images/logo.jpg";
+import schoolLogo from "../../assets/images/logo1.png";
 import { Container, Divider, Grid2, Box } from "@mui/material";
 import TabHeader from "./TabHeader";
 import schoolbg from "../../assets/images/school-bg.jpg";
@@ -18,12 +18,12 @@ function Header() {
       <img src={schoolLogo} className="resIg" />
       </Box>
       <Box sx={{ background: "transparent", top:{xl:90, lg:75, md: 60,sm:20,xs:10}, left: {xl:260, lg:200, md: 180,sm:140,xs:100}, position: "absolute", zIndex:1100 }}>
-            <Box sx= {{color: "#036EA4",  textAlign: "start",fontSize: {
+            <Box sx= {{color: "#B03052",  textAlign: "start",fontSize: {
               xs:"x-Small", sm:"small", md:"medium",lg:"large",xl:"x-large"
             }}} className='capriolafont marginzero paddingTop15'>Goa Vidya Pratishthan’s</Box>
-            <Box sx= {{color: "#036EA4",  fontWeight: "bolder",fontSize: {
+            <Box sx= {{color: "#B03052",  fontWeight: "bolder",fontSize: {
               xs:"Small", sm:"medium", md:"large",lg:"xx-large",xl:"xxx-large"
-            }}} className='capriolafont marginzero paddingTop5'>SHREE GANESH VIDYA MANDIR</Box>
+            }}} className='capriolafont marginzero paddingTop5'>SHREE GANESH VIDYAMANDIR</Box>
       </Box>
       <TabHeader></TabHeader>
     </Container>

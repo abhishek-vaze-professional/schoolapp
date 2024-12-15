@@ -28,10 +28,10 @@
   top: 0;
   width: 100%;
   max-width: 100%;
-  color: #036EA4;
+  color: #B03052;
   text-align: center;
   /*background-color: cornsilk;*/
-  font-family: "Capriola", Sans-serif;
+  font-family: "Montserrat", Sans-serif;
 }
 .borderme {
   border: black solid;
@@ -40,7 +40,7 @@
 .titleFont {
   font-weight: bolder;
   font-size: xxx-large;
-  color: #036EA4;
+  color: #B03052;
 }
 
 .nowrap {
@@ -50,13 +50,13 @@
 
 .menuFont {
   font-weight: bolder !important;
-  font-family: "Atma", Sans-serif !important;
+  font-family: "Montserrat-B", Sans-serif !important;
   font-size: x-large !important;
   color: #62615C !important;
 }
 
 a, a:visited {
-  color: #62615C;
+  color: #B03052;
   text-decoration: none;
  }
  .paddingTab {
@@ -68,7 +68,7 @@ a, a:hover {
   color: goldenrod;
 }
 a, a:active {
-  color: #62615C;
+  color: #B03052;
   text-decoration: none;
  }
 .padding2 {
@@ -85,7 +85,7 @@ a, a:active {
   height: 517px;
 }
 .textFontLarge {
-  font-family: "Capriola", Sans-serif;
+  font-family: "Montserrat", Sans-serif;
 font-weight: bolder;
 font-size: larger;
 }
@@ -100,7 +100,8 @@ font-size: larger;
 }
 
 .capriolafont {
-  font-family: "Capriola", Sans-serif;
+  /*font-family: "Capriola", Sans-serif;*/
+  font-family: "Montserrat-EB", Sans-serif;
 }
 
 .leftit {
@@ -134,7 +135,7 @@ font-size: larger;
 }
 
 .subtitle {
-  color: #036EA4;
+  color: #B03052;
   text-align: start;
   font-size: x-large;
 }
@@ -163,17 +164,17 @@ font-size: larger;
 }
 
 .textColorGray {
-  color: #62615C;
+  color: black;
 }
 
 .accordion-odd {
-  background-color: #036EA4 !important;
+  background-color: #B03052 !important;
   color: white !important;
 }
 
 .accordion-even {
-  background-color: white !important;;
-  color: #036EA4 !important;;
+  background-color: white !important;
+  color:#B03052 !important;
 }
 .schoolbg {
   background-repeat: no-repeat;
@@ -215,9 +216,17 @@ font-size: larger;
  }
 
  .content {
-  font-family: "Capriola", Sans-serif;
+  font-family: "Montserrat", Sans-serif;
   text-align: left;
   margin-left:15px;
+}
+
+.subHeaders {
+  font-family: "Montserrat-B", Sans-serif;
+}
+
+.whiteText {
+  color: white;
 }
 
 

@@ -12,14 +12,15 @@ import "./common.css";
 import { Link } from "react-router-dom";
 
 const TabHeader = () => {
-  const pages = [{title:"Dashboard", path:"/dashboard"},
+  const pages = [{title:"About Us", path:"/dashboard"},
   {title:"Home", path:"/home"},
   {title:"Our School", path:"/school"},
   {title:"Staff", path:"/staff"},
   {title:"Results", path:"/result"},
   {title:"Achievements", path:"/achievement"},
-  {title:"Genesis of School", path:"/genesis"},
-  {title:"Gallary", path:"/photoes"}];
+  {title:"Life At SGVM", path:"/photoes"}];
+
+  //{title:"Genesis of School", path:"/genesis"},
   const [value, setValue] = useState();
   const theme = useTheme();
   console.log(theme);
@@ -43,7 +44,7 @@ const TabHeader = () => {
               {
                 pages.map((page, index) => {
                   return <Box sx={{
-                    fontWeight: "bolder",fontFamily: "Atma, Sans-serif", color: "#62615C", fontSize: {
+                    fontWeight: "bolder",fontFamily: "Montserrat-B, Sans-serif", color: "#62615C", fontSize: {
                       xs:"x-Small", sm:"small", md:"medium",lg:"large",xl:"x-large"
                     }
                   }}><Link to={page.path} >{page.title}</Link></Box>

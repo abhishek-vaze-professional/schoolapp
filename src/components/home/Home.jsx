@@ -14,7 +14,7 @@ function home() {
       <p className='sHeader capriolafont textColorGray'>Home</p>
       <div className='content textColorGray'>
         <Box className="whiteBox" sx={whiteBoxStyle}>
-        <p className='homeTitle'>
+        <p className='subHeaders'>
           <b>ADMISSION AND WITHDRAWAL</b>
         </p>
         <ul>
@@ -48,7 +48,7 @@ function home() {
         </Box>
         <br></br>
         <Box className="whiteBox" sx={whiteBoxStyle}>
-        <p>
+        <p className='subHeaders'>
           <b>ATTENDANCE</b>
         </p>
         <ol>
@@ -64,7 +64,7 @@ function home() {
         </Box>
         <br></br>
         <Box className="whiteBox" sx={whiteBoxStyle}>
-        <p>
+        <p className='subHeaders'>
           <b>GUIDELINES FOR PARENTS</b>
         </p>
         <ol>
@@ -76,17 +76,17 @@ function home() {
         </Box>
         <br></br>
         <Box className="whiteBox" sx={whiteBoxStyle}>
-        <p>
+        <p className='subHeaders'>
           <b>SCHOOL UNIFORMS</b>
         </p>
-        <p> Primary </p>
+        <p className='subHeaders'> Primary </p>
         <Stack direction="row" spacing={4} className="menuFont marginTop15">
           
 
           <Box sx={{ width: "200 px", height:"354px"}}><img src = {primaryBoy} className="pboy uniform"/></Box>
           <Box sx={{ width: "200 px", height:"354px"}}><img src = {primaryGirl} className="pgirl pboy uniform"/></Box>
           </Stack>
-          <p> Secondary </p>
+          <p className='subHeaders'> Secondary </p>
           <Stack direction="row" spacing={4} className="menuFont marginTop15">
           <Box sx={{ width: "200 px", height:"354px"}}><img src = {secondaryBoy} className="sboy pboy uniform" /></Box>
           <Box sx={{ width: "200 px", height:"354px"}}><img src = {secondaryGirl} className="sgirl pboy uniform"/></Box>
@@ -95,7 +95,7 @@ function home() {
         <br></br>
         <br></br>
         <Box className="whiteBox" sx={whiteBoxStyle}>
-        <p>
+        <p className='subHeaders'>
           <b>SCHOOL DAYS AND HOLIDAYS</b>
         </p>
         <p> The scholastic year begins in June and ends in April</p>

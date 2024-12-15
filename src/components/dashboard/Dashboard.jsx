@@ -32,21 +32,20 @@ function dashboard() {
           <img src={schoolImg3} className='schoolimg' />
         </Grid2>
   </Grid2>*/}
-  <p className='sHeader textFont textColorGray'>Dashboard</p>
+  <p className='sHeader textFont textColorGray'>About Us</p>
       <br></br>
-      <Box className="content textColorGray" sx={whiteBoxStyle}>
-        <p className=' textFont textColorGray'>
+      <Box className="content whiteText" sx={whiteBoxStyle}>
+        <p className=' textFont '>
           Goa VidyaPratishthan’s SHREE GANESH VIDYAMANDIR was founded in 19____ by ______ . It is recognized by the Directorate of Education and the Goa S.S.C. Board. The School is managed
           by___________. The School is situated at the top of a hill in a healthy locality.
         </p>
         </Box>
         <br></br>
-        <Box className="content textColorGray" sx={whiteBoxStyle}>
-        <p className=' textFontLarge textColorGray'>“MISSION STATEMENT”</p>
+        <Box className="content whiteText" sx={whiteBoxStyle}>
+        <p className=' textFontLarge '>“SGVM MISSION”</p>
 
-        <p className=' textFont textColorGray'>
-          We are here to achieve an Holistic development and Nationalist spirit in every Student. The Excellency in every sphere of life and Experimentative nature. To develop every potential with
-          Equity and Engaged them with social agencies looking after the upliftment of humanity and culture. To produce Empowered citizen who are fit to be Employ with Ethics.
+        <p className=' textFont '>
+        We are committed to nurturing holistic development and a profound sense of nationalism in every student. By cultivating excellence in every aspect of life and fostering a spirit of innovation, we aim to unlock their unique potential with fairness and inclusivity. Our vision extends to connecting students with social agencies to champion humanity, preserve cultural heritage, and drive meaningful change. We aspire to create empowered global citizens, equipped with ethics, resilience, and the skills to excel in life while contributing selflessly to the betterment of society.
         </p>
       </Box>
       <br></br>

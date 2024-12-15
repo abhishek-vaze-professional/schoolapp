@@ -10,14 +10,14 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 
-const pages = [{title:"Dashboard", path:"/dashboard"},
+const pages = [{title:"About Us", path:"/dashboard"},
   {title:"Home", path:"/home"},
   {title:"Our School", path:"/school"},
   {title:"Staff", path:"/staff"},
   {title:"Results", path:"/result"},
   {title:"Achievements", path:"/achievement"},
-  {title:"Genesis of School", path:"/genesis"},
-  {title:"Gallary", path:"/photoes"}];
+  {title:"Life At SGVM", path:"/photoes"}];
+  //{title:"Genesis of School", path:"/genesis"},
 const DrawerComp = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
 

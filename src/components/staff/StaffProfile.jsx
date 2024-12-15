@@ -11,10 +11,10 @@ function StaffProfile(props) {
       <Box className='picContainer '>
         <img src={image} className='pic' alt='profile pic' />
       </Box>
-      <Box sx={{textAlign: "center", padding: "5px", fontFamily: "Capriola, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"medium", md:"medium",lg:"large",xl:"x-large"}}} >{staff.name}</Box>
-      <Box sx={{fontWeight: "bolder", padding: "5px", textAlign: "center", fontFamily: "Capriola, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}} >{staff.designation}</Box>
-      <Box sx={{fontWeight: "bold", padding: "5px", textAlign: "center", fontFamily: "Capriola, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}} >{staff.edu}</Box>
-      <Box sx={{fontFamily: "Capriola, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}}>
+      <Box sx={{textAlign: "center", padding: "5px", fontFamily: "Montserrat, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"medium", md:"medium",lg:"large",xl:"x-large"}}} >{staff.name}</Box>
+      <Box sx={{fontWeight: "bolder", padding: "5px", textAlign: "center", fontFamily: "Montserrat, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}} >{staff.designation}</Box>
+      <Box sx={{fontWeight: "bold", padding: "5px", textAlign: "center", fontFamily: "Montserrat, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}} >{staff.edu}</Box>
+      <Box sx={{fontFamily: "Montserrat, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}}>
         <ul>
           {staff.details.map((object, i) => (
             <li>{object}</li>
