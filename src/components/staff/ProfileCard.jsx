@@ -53,7 +53,7 @@ const staff = props.user;
   };
   const { loading, error, image } = useImage(staff.img, "staff");
   return (
-    <Card sx={{ maxWidth: 300, minWidth:300, cursor: "pointer" }} onClick={handleCardClick}>
+    <Card sx={{ maxWidth: 300, minWidth:300, cursor: "pointer", maxHeight: {xs:'300px', md:'350px'}}} onClick={handleCardClick}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

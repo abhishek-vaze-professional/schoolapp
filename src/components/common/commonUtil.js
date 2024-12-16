@@ -28,8 +28,9 @@ export function validateMobileNumber(mob) {
       if(name) {
         let splitArr = name.split(" ");
         if(splitArr.length === 1) return splitArr[0][0];
-        if(splitArr.length === 2) return (splitArr[0][0] + splitArr[1][0]);
-        if(splitArr.length > 2) return (splitArr[1][0] + splitArr[splitArr.length -1][0]);
+        if(splitArr.length === 2) return (splitArr[1][0]);
+        if(splitArr.length === 3) return (splitArr[1][0] + splitArr[splitArr.length -1][0]);
+        if(splitArr.length > 3) return (splitArr[1][0] + splitArr[splitArr.length -1][0]);
       }
       return "";
  }

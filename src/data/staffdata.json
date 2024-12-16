@@ -5,6 +5,7 @@
       "designation": "In-Charge Headmistress",
       "edu": "M.Sc. B.Ed.(Physical Chemistry)",
       "img": "Suvarn",
+      "type": "highSchool",
       "details": [
         "Born in 1979 in Goa, did schooling from Lourdes Convent  High School,Saligao.",
         "Did Higher secondary & Graduation  from St. Xavier’s HSS & College, Mapusa",
@@ -26,6 +27,7 @@
       "designation": "Graduate Teacher ",
       "edu": "B.A. (Economics & History) B.Ed",
       "img": "Pallavi",
+      "type": "highSchool",
       "details": [
         "Born in 1987 in Goa.",
         "Did schooling from St. Clara’s High School & Higher Secondary from DBM Higher Secondary, Mulgao, Bicholim",
@@ -41,6 +43,7 @@
       "designation": "Graduate Teacher",
       "edu": "M.A. (Hindi) B.Ed",
       "img": "Kashi",
+      "type": "highSchool",
       "details": ["Born in 1989 in Goa.",
       "Did schooling from Parsem  High School, Parsem & Higher Secondary from S.F.X. Higher Secondary, Siolim",
       "Graduated from St. Xavier’s College, Mapusa & Post Graduation from IGNOU University.",
@@ -55,6 +58,7 @@
       "designation": "Graduate Teacher",
       "edu": "M.A. (Marathi) B.Ed",
       "img": "Gautami",
+      "type": "highSchool",
       "details": ["Born in 1991 in Goa.",
       "Did schooling from Shree Hanuman Vidyalaya, Valpoi & Higher Secondary from Govt. Higher Secondary, Valpoi.",
       "Graduated from Govt. College, Sankhalim, Bicholim & Post Graduation from IGNOU University.",
@@ -76,6 +80,7 @@
       "designation": "Teacher",
       "edu": "M.A. (English), M.Com, B.Ed",
       "img": "Yogita",
+      "type": "highSchool",
       "details": ["Born in 1988 in Goa.",
       "Did schooling from Poira High School, Mayem & Higher Secondary from Purushottam Higher Secondary.",
       "Graduated from Shiroda Walawalkar College & M.Com from Shiavji University & M.A from IGNOU University.",
@@ -89,6 +94,7 @@
       "designation": "Teacher",
       "edu": "M.A. (English), M.Com, B.Ed",
       "img": "Swati",
+      "type": "highSchool",
       "details": ["Born in 1991 in Goa.",
       "Did schooling from Harmal Panchakoshi High School & Higher Secondary, Harmal, Pernem.",
       "Graduated from St. Xavier’s College, Mapusa & currently perusing M.Sc. In Geography from IGNOU University.",
@@ -101,6 +107,7 @@
       "designation": "Teacher",
       "edu": "M.A. (Geography), B.Ed",
       "img": "Subodh",
+      "type": "highSchool",
       "details": ["Born in 1987 in Goa.",
       "Did schooling from Shivajiraje High School, Sal & Higher Secondary from DMB Muilgao, Bicholim.",
       "Graduated from Govt. College, Sankhalim, Bicholim.",
@@ -112,10 +119,28 @@
       "Survey of Sacred Groves of entire state."]
     },
     {
+      "name": "Mrs. Rucha V. Kelkar",
+      "designation": "Teacher",
+      "edu": "M.Sc. M.A. (Sanskrit) B.Ed",
+      "img": "Rucha",
+      "type": "highSchool",
+      "details": ["Born in 1975 in Goa.",
+      "Did schooling from Pragati HS, Bori, Ponda & Higher Secondary from Shiroda Higher Secondary School.",
+      "Graduated from P.E.S. College, Farmagudi & Tilak Maharastra University, Pune & M.Sc. From Goa University & Currently pursuing M.A. in Sanskrit .",
+      "Teaching Experience:- 7 Years.",
+      "Worked for DIKSHA as Content Creator.",
+      "Felicitated by Rajhauns & Vidyabharati for guiding the students achieve state topper award at Goa Board.",
+      "Basic Knowledge of Kathak Dance (Answered two exams of Gandharwa Mahavidyalaya).",
+      "Basic Knowledge of Classical Singing (Vocal)",
+      "Conducted Sanskrit Sambhashan Varg.",
+      "Guided students for singing competition."]
+    },
+    {
       "name": "Mr. Tulsidas Shrikant Bordekar",
       "designation": "P.E. Teacher",
       "edu": "B.Sc. B.Ed(Physical Education)",
       "img": "Tulsidas",
+      "type": "highSchool",
       "details": ["Born in 1992 in Goa.",
       "Did schooling from Mandre High School, Mandrem, & Higher Secondary from Harmal Panchacroshi Higher Secondary, Harmal.",
       "Graduated from D.M.C. College, Assagao.",
@@ -132,6 +157,7 @@
       "designation": "Art Teacher ",
       "edu": "B.F.A (Painting)",
       "img": "Shivanand",
+      "type": "highSchool",
       "details": ["Born in 1986 in Goa.",
       "Did schooling from Govind Gunaji Sawant High School,Bicholim, & Higher Secondary from Vividha Higher Secondary School, Navelim - Sanqualim.",
       "Graduated from Goa College of Art Altino, Panjim.",
@@ -142,10 +168,27 @@
       "Bagged many awards in Tripurari Purnima Boat festival organized by Art and Culture Goa."]
     },
     {
+      "name": "Mr. Mayur Mahesh Tamankar",
+      "designation": "ICT Teacher ",
+      "edu": "B.Sc. PGDCA (ICT)",
+      "img": "Mayur",
+      "type": "highSchool",
+      "details": ["Born in 1983 in Goa.",
+      "Did schooling from Shri Vasant Vidyalaya, Siolim & Higher Secondary from St. Xavier’s HSS Mapusa.",
+      "Graduated from D.M.C. College, Assagao & Post Graduate Diploma in Computer Application (PGDCA) from Narayan Zatye College, Sankhalim.",
+      "Completed training course of Microsoft Certified System Engineer (MCSE)",
+      "Knowledge of Computer Assembling, Troubleshooting & Maintenance (A+ Certificate)",
+      "Teaching Experience:- 10 Years.",
+      "Attended & completed the training (till date) on Coding & Robotics Education in School organized by the Education Department of Goa.",
+      "Have a good knowledge of sound and video editing.",
+      "Directed many Konkani drama’s, like acting & have appeared in various stage plays, drama’s etc."]
+    },
+    {
       "name": "Mr. Rajendra Dhabolkar",
       "designation": "Science Laboratory Assistant ",
       "edu": "B.Sc. B.Ed.",
       "img": "Rajendra",
+      "type": "highSchool",
       "details": ["Born in 1977 in Goa.",
       "Did schooling from Vidya Prasarak High School,Morjim, & Higher Secondary from St. Francis Higher Secondary School, Siolim.",
       "Graduated from Goa St. Xavier’s College, Mapusa.",
@@ -156,6 +199,7 @@
       "designation": "Teacher",
       "edu": "M.A. D.Ed",
       "img": "Seema",
+      "type": "primary",
       "details": ["Born in 1977 in Goa.",
       "Did schooling from Malgaon English School, Malgaon, Sawantwadi & Higher Secondary from R.P.D Higher Secondary School, Sawantwadi.",
       "Graduated from P.E.S. College of Art & Commerce, Ponda & M.A. In Marathi from Shivaji University, Kolhapur, Maharastra.",
@@ -170,6 +214,7 @@
       "designation": "Teacher",
       "edu": "B.A. D.Ed",
       "img": "Vimal",
+      "type": "primary",
       "details": ["Born in 1988 in Goa.",
       "Did schooling from Dattaram Mantravadi Memorial  High School, Mapusa & Higher Secondary from Purushottam Walawalkar  Higher Secondary.",
       "Graduated from DM'S College, Assagao.",
@@ -190,6 +235,7 @@
       "designation": "Teacher",
       "edu": "B.Com. D.El.Ed.",
       "img": "Janaki",
+      "type": "primary",
       "details": ["Born in 1992 in Goa.",
       "Did schooling from & Higher Secondary from St. Francis Xavier’s Siolim.",
       "Graduated from St. Xavier’s College Mapusa.",
@@ -203,6 +249,7 @@
       "designation": "Teacher",
       "edu": "B.A. D.El.Ed.",
       "img": "Jeetendra",
+      "type": "primary",
       "details": ["Born in 1996 in Goa.",
       "Did schooling from & Higher Secondary from Govt. School, Canacona.",
       "Graduated from P.E.S. College of Art & Commerce, Ponda & currently pursuing  M.A. (Marathi) from Shivaji University, Kolhapur, Maharastra.",
@@ -215,47 +262,18 @@
       "designation": "Teacher",
       "edu": "B.A. B.Ed",
       "img": "Anuja",
+      "type": "primary",
       "details": ["Born in 1988 in Goa.",
       "Did schooling from Shri Hanuman Vidyalaya, Valpoi, Sattari & Higher Secondary from Govt. Higher Secondary School, Valpoi.",
       "Graduated from Govt. College of Arts & Commerce & Science, Sankhalim.",
       "Teaching Experience:- 6 Years."]
     },
     {
-      "name": "Mrs. Rucha V. Kelkar",
-      "designation": "Teacher",
-      "edu": "M.Sc. M.A. (Sanskrit) B.Ed",
-      "img": "Rucha",
-      "details": ["Born in 1975 in Goa.",
-      "Did schooling from Pragati HS, Bori, Ponda & Higher Secondary from Shiroda Higher Secondary School.",
-      "Graduated from P.E.S. College, Farmagudi & Tilak Maharastra University, Pune & M.Sc. From Goa University & Currently pursuing M.A. in Sanskrit .",
-      "Teaching Experience:- 7 Years.",
-      "Worked for DIKSHA as Content Creator.",
-      "Felicitated by Rajhauns & Vidyabharati for guiding the students achieve state topper award at Goa Board.",
-      "Basic Knowledge of Kathak Dance (Answered two exams of Gandharwa Mahavidyalaya).",
-      "Basic Knowledge of Classical Singing (Vocal)",
-      "Conducted Sanskrit Sambhashan Varg.",
-      "Guided students for singing competition."]
-    },
-    {
-      "name": "Mr. Mayur Mahesh Tamankar",
-      "designation": "ICT Teacher ",
-      "edu": "B.Sc. PGDCA (ICT)",
-      "img": "Mayur",
-      "details": ["Born in 1983 in Goa.",
-      "Did schooling from Shri Vasant Vidyalaya, Siolim & Higher Secondary from St. Xavier’s HSS Mapusa.",
-      "Graduated from D.M.C. College, Assagao & Post Graduate Diploma in Computer Application (PGDCA) from Narayan Zatye College, Sankhalim.",
-      "Completed training course of Microsoft Certified System Engineer (MCSE)",
-      "Knowledge of Computer Assembling, Troubleshooting & Maintenance (A+ Certificate)",
-      "Teaching Experience:- 10 Years.",
-      "Attended & completed the training (till date) on Coding & Robotics Education in School organized by the Education Department of Goa.",
-      "Have a good knowledge of sound and video editing.",
-      "Directed many Konkani drama’s, like acting & have appeared in various stage plays, drama’s etc."]
-    },
-    {
       "name": "Mr. Rakesh Ramesh Desai",
       "designation": "U.D.C.",
       "edu": "",
       "img": "Rakesh",
+      "type": "nonTeaching",
       "details": []
     },
     {
@@ -263,6 +281,7 @@
       "designation": "L.D.C.",
       "edu": "",
       "img": "Durgesh",
+      "type": "nonTeaching",
       "details": []
     },
     {
@@ -270,6 +289,7 @@
       "designation": "Multitasking Staff",
       "edu": "",
       "img": "Suhas",
+      "type": "nonTeaching",
       "details": []
     },
     {
@@ -277,6 +297,7 @@
       "designation": "Multitasking Staff",
       "edu": "",
       "img": "Ankush",
+      "type": "nonTeaching",
       "details": []
     },
     {
@@ -284,13 +305,15 @@
       "designation": "Multitasking Staff",
       "edu": "",
       "img": "Shobha",
+      "type": "nonTeaching",
       "details": []
     },
     {
-      "name": "Miss Reecha Sawant ",
+      "name": "Miss Reecha Sawant",
       "designation": "Librarian",
       "edu": "",
       "img": "Reecha",
+      "type": "nonTeaching",
       "details": []
     },
     {
@@ -298,6 +321,7 @@
       "designation": "Watchman",
       "edu": "",
       "img": "Harishchandra",
+      "type": "nonTeaching",
       "details": []
     }
   ]
