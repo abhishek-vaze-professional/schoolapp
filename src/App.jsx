@@ -14,6 +14,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Carousel from "./components/carousel/Carousel";
 import Result from './components/results/Result';
 import Achievement from './components/achievement/Achievement';
+import ScrollButton from './components/common/ScrollButton';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
         
       </div>
       <div className="fill-space"></div>
+      <ScrollButton></ScrollButton>
       {<Footer/>}
       </div>
     </>
