@@ -18,7 +18,7 @@ function School() {
     <>
       <p className="sHeader capriolafont textColorGray" id="head">Our School</p>
       <Box className="content textColorGray" sx={whiteBoxStyle}>
-      <p className="subHeaders">
+      <p>
         <b>Features of our school at a glance</b>
       </p>
       <ul>
@@ -42,27 +42,6 @@ function School() {
       </ul>
       </Box>
       <br></br>
-      <br></br>
-      <Box className="content textColorGray" sx={whiteBoxStyle}>
-      <p className="subHeaders">
-        <b>Facilities</b>
-      </p>
-      <ul>
-        <li>Science Lab: Equipped with advanced equipment for students to conduct experiments and explore scientific concepts.</li>
-        <li>Mathematics Lab: Students can learn and explore mathematical concepts and verify mathematical facts and theorems through a variety of activities using different techniques.</li>
-        <li>Computer Lab: Modern labs with high-speed internet access for students to develop digital literacy.</li>
-        <li>Physical Education Cricket, Volleyball, Football, Table Tennis, Badminton, Kabaddi, Chess, Yoga, Sepaktakraw etc.</li>
-        <li>Music room: A place for students to learn to play a variety of musical instruments.</li>
-        <li>Library: A variety of materials, such as books, periodicals, newspapers etc.</li>
-        <li>Art Education: Drawing, Painting, Sculpture.</li>
-        <li>Theatre Art Education</li>
-        <li>Auditorium</li>
-        <li>Smart classroom</li>
-        <li>Open ground</li>
-        <li>Counselling</li>
-        <li>Fire safety equipment & Security</li>
-      </ul>
-      </Box>
       <br></br>
 {/*
       <p>

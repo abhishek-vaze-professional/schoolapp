@@ -240,15 +240,3 @@ font-size: larger;
   padding-left: 30px;
 }
 
-.dashimg {
-  width: 572px;
-  height: 323px;
-  box-shadow: 10px 10px 5px black;
-}
-
-.dashimg-mob {
-  width: 250px;
-  height: 141px;
-  box-shadow: 10px 10px 5px black;
-}
-

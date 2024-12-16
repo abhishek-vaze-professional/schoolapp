@@ -1,16 +1,6 @@
 {
   "staffData": [
     {
-      "name": "Mr. Rupesh Sawant",
-      "designation": "Headmaster",
-      "edu": "",
-      "img": "Rupesh",
-      "type": "highSchool",
-      "details": [
-        "NEP In charge Goa state coordinator (SCERT)"
-      ]
-    },
-    {
       "name": "Mrs. Suvarn Bramhanand Kamat",
       "designation": "In-Charge Headmistress",
       "edu": "M.Sc. B.Ed.(Physical Chemistry)",
@@ -50,7 +40,7 @@
     },
     {
       "name": "Mrs. Kashi Sarvesh Shirodkar",
-      "designation": "In-Charge Headmistress",
+      "designation": "Graduate Teacher",
       "edu": "M.A. (Hindi) B.Ed",
       "img": "Kashi",
       "type": "highSchool",
@@ -144,40 +134,6 @@
       "Basic Knowledge of Classical Singing (Vocal)",
       "Conducted Sanskrit Sambhashan Varg.",
       "Guided students for singing competition."]
-    },
-    {
-      "name": "Mrs. Megha Ramaji Desai",
-      "designation": "Teacher",
-      "edu": "B.Sc. (Chemistry), B.Ed",
-      "img": "Megha",
-      "type": "highSchool",
-      "details": ["Did schooling from Progress High School, Sakhali & Higher Secondary from Shri Bhumika Higher Secondary Parye, Sattari",
-      "Graduated from Govt. College of Arts, Science and Commerce, Sakhali & B.Ed. from GVM's Dada Vaidya College of Education, Ponda",
-      "Teaching Experience: 7 years",
-      "Presented Zero Investment innovation at IIT Delhi under Aurobindo Society Delhi."]
-    },
-    {
-      "name": "Mrs. Shreya Surya Naik Fatarpekar",
-      "designation": "Teacher",
-      "edu": "B.A, B.Ed",
-      "img": "Shreya",
-      "type": "highSchool",
-      "details": ["Born in 1997 in Goa",
-      "Did schooling from L. D. Samant Memorial High School, Parvari & Higher Secondary from Vidya Prabodhini Higher Secondary School, Parvari.",
-      "Graduated from Dhempe College Of Arts & Science. B.Ed from GVM's Dr. Dada Vaidya College Of Education & Pursuing M.A. from IGNOU University.",
-      "Teaching Experience:- 3 Years",
-      "Compering for the programme in Konkani, Marathi & Hindi."]
-    },
-    {
-      "name": "Miss. Mitali Mohan Palyekar",
-      "designation": "Teacher",
-      "edu": "B.A, D.ED, B.Ed, M.A (Hindi)",
-      "img": "Mitali",
-      "type": "highSchool",
-      "details": ["Born in 1996 in Goa",
-      "Did schooling from New Goa G.S Amonkar Vidya Mandir Mapusa. & Higher secondary from Dnyanprassarak Mandal's P.V.S Sarojini Mandhusudan kushe  Assagao Goa. ",
-      "Graduated from St. Xavier's College & M.A from IGNOU University.",
-      "Teaching Experience:- 3 Years"]
     },
     {
       "name": "Mr. Tulsidas Shrikant Bordekar",
@@ -311,40 +267,6 @@
       "Did schooling from Shri Hanuman Vidyalaya, Valpoi, Sattari & Higher Secondary from Govt. Higher Secondary School, Valpoi.",
       "Graduated from Govt. College of Arts & Commerce & Science, Sankhalim.",
       "Teaching Experience:- 6 Years."]
-    },
-    {
-      "name": "Miss Dipti Dilip Kudav",
-      "designation": "Teacher",
-      "edu": "Undergraduate De.El.Ed",
-      "img": "Dipti",
-      "type": "primary",
-      "details": ["Born in 2003 in Maharashtra ",
-      "Did Schooling from St Theresa's High School Candolim , Higher secondary from St Theresa's higher secondary Candolim.",
-      "Teaching Experience:- 2 Years."]
-    },
-    {
-      "name": "Mrs. Varada Kelkar",
-      "designation": "Teacher",
-      "edu": "",
-      "img": "Varada",
-      "type": "preprimary",
-      "details": []
-    },
-    {
-      "name": "Mrs. Shweja Mandrekar",
-      "designation": "Teacher",
-      "edu": "",
-      "img": "Shweja",
-      "type": "preprimary",
-      "details": []
-    },
-    {
-      "name": "Mrs. Ayushi Shinde",
-      "designation": "Teacher",
-      "edu": "",
-      "img": "Ayushi",
-      "type": "preprimary",
-      "details": []
     },
     {
       "name": "Mr. Rakesh Ramesh Desai",
