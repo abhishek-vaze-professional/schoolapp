@@ -5,6 +5,8 @@ import primaryBoy from "../../assets/images/uniform/primary-boy.jpg";
 import primaryGirl from "../../assets/images/uniform/primary-girl.jpg";
 import secondaryBoy from "../../assets/images/uniform/secondary-boy.jpg";
 import secondaryGirl from "../../assets/images/uniform/secondary-girl.jpg";
+import preprimaryBoy from "../../assets/images/uniform/preprimary-boy.jpg";
+import preprimaryGirl from "../../assets/images/uniform/preprimary-girl.jpg";
 
 import { whiteBoxStyle } from "../common/commonUtil";
 
@@ -79,6 +81,13 @@ function home() {
         <p className='subHeaders'>
           <b>SCHOOL UNIFORMS</b>
         </p>
+        <p className='subHeaders'> Pre-primary </p>
+        <Stack direction="row" spacing={4} className="menuFont marginTop15">
+          
+
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {preprimaryBoy} className="pboy uniform"/></Box>
+          <Box sx={{ width: "200 px", height:"354px"}}><img src = {preprimaryGirl} className="pgirl pboy uniform"/></Box>
+          </Stack>
         <p className='subHeaders'> Primary </p>
         <Stack direction="row" spacing={4} className="menuFont marginTop15">
           
