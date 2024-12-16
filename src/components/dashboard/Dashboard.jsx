@@ -36,8 +36,8 @@ function dashboard() {
       <br></br>
       <Box className="content whiteText" sx={whiteBoxStyle}>
         <p className=' textFont '>
-          Goa VidyaPratishthan’s SHREE GANESH VIDYAMANDIR was founded in 19____ by ______ . It is recognized by the Directorate of Education and the Goa S.S.C. Board. The School is managed
-          by___________. The School is situated at the top of a hill in a healthy locality.
+          Goa VidyaPratishthan’s SHREE GANESH VIDYAMANDIR was founded in 2003. It is recognized by the Directorate of Education and the Goa S.S.C. Board. The School is managed
+          by Goa Vidya Pratishthan. The School is situated at the top of a hill in a healthy locality.
         </p>
         </Box>
         <br></br>

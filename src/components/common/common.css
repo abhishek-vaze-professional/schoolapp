@@ -229,4 +229,14 @@ font-size: larger;
   color: white;
 }
 
+.marginLeft15 {
+  margin-left:15px;
+}
+
+.yatrafont {
+  font-family: "Yatra", Sans-serif;
+}
+.paddingLeft15 {
+  padding-left: 30px;
+}
 

@@ -49,7 +49,7 @@ function Footer() {
                   xl: "medium",
                 },
               }}
-              className='capriolafont marginzero '
+              className='capriolafont marginLeft15'
             >
               Goa Vidya Pratishthan’s
             </Box>
@@ -64,7 +64,7 @@ function Footer() {
                   xl: "x-large",
                 },
               }}
-              className='capriolafont marginzero'
+              className='capriolafont marginLeft15'
             >
               SHREE GANESH VIDYA MANDIR
             </Box>
@@ -79,7 +79,7 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className='capriolafont marginzero'
+              className='content marginzero'
             >
               (Recognised by the Goa Board of Secondary and Higher Secondary Education, Porvorim)
             </Box>
@@ -94,7 +94,7 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className='capriolafont marginzero'
+              className='content marginzero'
             >
               <span className=''>Index No. : </span>{" "}
               <span className='valueFoot' style={{letterSpacing: "2px"}}>
@@ -116,7 +116,7 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className='capriolafont marginzero'
+              className='content marginzero'
             >
               Ganeshpuri, Mhapsa, Bardez, Goa - 403 507. (Affiliated to Vidya Bharati, Goa)
             </Box>
@@ -131,7 +131,7 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className='capriolafont marginzero'
+              className='content marginzero'
             >
               <span className=''>
                 <span className='iconFoot crimsonColor'>
@@ -156,7 +156,7 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className='capriolafont marginzero'
+              className='content marginzero'
             >
               <span className=''>
                 <span className='iconFoot crimsonColor'>
@@ -181,7 +181,7 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className='capriolafont marginzero'
+              className='content marginzero'
             >
               <span className='iconFoot crimsonColor'>
                 <LocationOnIcon />
@@ -204,7 +204,7 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className='capriolafont marginzero'
+              className='content marginzero'
             >
               <span>
                 <YouTubeIcon className='iconFoot crimsonColor' style={{ backgroundColor: "white" }} />
@@ -227,7 +227,7 @@ function Footer() {
                   xl: "small",
                 },
               }}
-              className='capriolafont marginzero'
+              className='content marginzero'
             >
               {" "}
               <span>

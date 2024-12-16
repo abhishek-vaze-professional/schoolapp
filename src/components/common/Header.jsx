@@ -23,8 +23,15 @@ function Header() {
             }}} className='capriolafont marginzero paddingTop15'>Goa Vidya Pratishthan’s</Box>
             <Box sx= {{color: "#B03052",  fontWeight: "bolder",fontSize: {
               xs:"Small", sm:"medium", md:"large",lg:"xx-large",xl:"xxx-large"
-            }}} className='capriolafont marginzero paddingTop5'>SHREE GANESH VIDYAMANDIR</Box>
+            }}} className=""><span className="capriolafont marginzero paddingTop5">SHREE GANESH VIDYAMANDIR</span> 
+            </Box>
+            <Box sx= {{textAlign: "start", color: "#B03052",  fontWeight: "bolder",fontSize: {
+              xs:"x-Small", sm:"small", md:"medium",lg:"large",xl:"x-large"
+            }}} className='yatrafont marginzero'>ज्ञानार्थ आइए । सेवार्थ जाइए । ।</Box>
       </Box>
+      
+      
+
       <TabHeader></TabHeader>
     </Container>
   </>
