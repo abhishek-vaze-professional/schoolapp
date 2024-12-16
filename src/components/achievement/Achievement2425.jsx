@@ -16,7 +16,7 @@ function Achievement2425() {
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
-          id="panel1-header" className='accordion-odd'
+          id="panel1-header" className='accordion-odd subHeaders'
         >
           Sports
         </AccordionSummary>
@@ -28,7 +28,7 @@ function Achievement2425() {
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
-          id="panel1-header" className='accordion-odd'
+          id="panel1-header" className='accordion-odd subHeaders'
         >
           Non Sports
         </AccordionSummary>

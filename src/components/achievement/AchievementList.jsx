@@ -55,7 +55,7 @@ function AchievementList(props) {
       >
         {data.map((object, i) => (
           <Paper elevation={20} onClick={() => handleOpen(object)}>
-            <Box className='pad25 elipseit' ><p dangerouslySetInnerHTML={{__html: getEliptedText(object)}}/></Box>
+            <Box className='pad25 elipseit content' ><p dangerouslySetInnerHTML={{__html: getEliptedText(object)}}/></Box>
           </Paper>
         ))}
       </Box>
@@ -75,7 +75,7 @@ function AchievementList(props) {
       >
         <Fade in={open}>
           <Box sx={style} >
-            <p className="capriolafont" dangerouslySetInnerHTML={{__html: text}} />
+            <p className="content" dangerouslySetInnerHTML={{__html: text}} />
           </Box>
         </Fade>
       </Modal>

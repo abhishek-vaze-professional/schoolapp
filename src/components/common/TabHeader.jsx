@@ -26,6 +26,9 @@ const TabHeader = () => {
   console.log(theme);
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
   console.log(isMatch);
+  const clickLink = () => {
+    document.getElementById( 'head' ).scrollIntoView();
+  }
 
   return (
     <React.Fragment>
@@ -47,7 +50,7 @@ const TabHeader = () => {
                     fontWeight: "bolder",fontFamily: "Montserrat-B, Sans-serif", color: "#62615C", fontSize: {
                       xs:"x-Small", sm:"small", md:"medium",lg:"large",xl:"x-large"
                     }
-                  }}><Link to={page.path} >{page.title}</Link></Box>
+                  }}><Link to={page.path} onClick= {clickLink}>{page.title}</Link></Box>
                 })
               }
             </Stack>

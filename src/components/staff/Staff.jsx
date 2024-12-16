@@ -34,7 +34,7 @@ function Staff() {
   const handleClose = () => setOpen(false);
   return (
     <div className=''>
-      <p className="sHeader capriolafont textColorGray">Staff</p>
+      <p className="sHeader capriolafont textColorGray" id="head">Staff</p>
       <div className='content'>
       <Grid2 container spacing={2}>
         {staffData.map((object, i) => (

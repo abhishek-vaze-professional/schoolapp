@@ -32,7 +32,7 @@ function dashboard() {
           <img src={schoolImg3} className='schoolimg' />
         </Grid2>
   </Grid2>*/}
-  <p className='sHeader textFont textColorGray'>About Us</p>
+  <p className='sHeader capriolafont textColorGray' id="head">About Us</p>
       <br></br>
       <Box className="content whiteText" sx={whiteBoxStyle}>
         <p className=' textFont '>

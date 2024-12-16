@@ -5,7 +5,7 @@ import { whiteBoxStyle } from "../common/commonUtil";
 function Achievement() {
   return (
     <div className="capriolafont textColorGray">
-      <p className="sHeader">Achievements</p>
+      <p className="sHeader" id="head">Achievements</p>
       <br></br>
       <Box className="content textColorGray" sx={whiteBoxStyle}>
         <AchievementTab></AchievementTab>

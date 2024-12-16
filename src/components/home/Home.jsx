@@ -11,7 +11,7 @@ import { whiteBoxStyle } from "../common/commonUtil";
 function home() {
   return (
     <>
-      <p className='sHeader capriolafont textColorGray'>Home</p>
+      <p className='sHeader capriolafont textColorGray' id="head">Home</p>
       <div className='content textColorGray'>
         <Box className="whiteBox" sx={whiteBoxStyle}>
         <p className='subHeaders'>

@@ -16,7 +16,7 @@ import { whiteBoxStyle } from "../common/commonUtil";
 function School() {
   return (
     <>
-      <p className="sHeader capriolafont textColorGray">Our School</p>
+      <p className="sHeader capriolafont textColorGray" id="head">Our School</p>
       <Box className="content textColorGray" sx={whiteBoxStyle}>
       <p>
         <b>Features of our school at a glance</b>
@@ -129,7 +129,7 @@ function School() {
           id="panel1-header"
           className="accordion-odd"
         >
-         <Diversity3Icon/> <span className="paddingLeft30">GOVERNING BODY (2023 - 2026)</span>
+         <Diversity3Icon/> <span className="paddingLeft30 subHeaders">GOVERNING BODY (2023 - 2026)</span>
         </AccordionSummary>
         <AccordionDetails>
           <BasicTable data={govbodydata}></BasicTable>
@@ -140,9 +140,9 @@ function School() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
-          className="accordion-even"
+          className="accordion-odd"
         >
-          <Diversity3Icon/> <span className="paddingLeft30">SCHOOL MANAGING COMMITTEE - Primary Section - (4.9.2021 TO 3.9.2024)</span>
+          <Diversity3Icon/> <span className="paddingLeft30 subHeaders">SCHOOL MANAGING COMMITTEE - Primary Section - (4.9.2021 TO 3.9.2024)</span>
         </AccordionSummary>
         <AccordionDetails>
           <BasicTable data={primarydata}></BasicTable>
@@ -155,7 +155,7 @@ function School() {
           id="panel1-header"
           className="accordion-odd"
         >
-          <Diversity3Icon/> <span className="paddingLeft30">SCHOOL MANAGING COMMITTEE - Secondary Section - (4.9.2021 TO 3.9.2024)</span>
+          <Diversity3Icon/> <span className="paddingLeft30 subHeaders">SCHOOL MANAGING COMMITTEE - Secondary Section - (4.9.2021 TO 3.9.2024)</span>
         </AccordionSummary>
         <AccordionDetails>
           <BasicTable data={secondarydata}></BasicTable>
