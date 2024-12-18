@@ -252,3 +252,7 @@ font-size: larger;
   box-shadow: 10px 10px 5px black;
 }
 
+.centerit {
+  text-align: center;
+}
+

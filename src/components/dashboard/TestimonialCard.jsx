@@ -8,6 +8,7 @@ import useImage from "../common/useImage";
 
 function TestimonialCard(props) {
     const user = props.user;
+    console.log(user);
     const { loading, error, image } = useImage(user.img, "testimonials");
     console.log(image);
   return (

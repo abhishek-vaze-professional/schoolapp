@@ -4,7 +4,6 @@ import useImage from "../common/useImage";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { useMediaQuery, useTheme } from "@mui/material";
-import building1 from "../../assets/images/Picture1.jpg";
 function DashboardCarousel() {
   const photos = photoData.dashPics;
   const theme = useTheme();
