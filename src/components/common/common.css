@@ -241,7 +241,7 @@ font-size: larger;
 }
 
 .dashimg {
-  width: 572px;
+  width: 572px !important;
   height: 323px;
   box-shadow: 10px 10px 5px black;
 }
