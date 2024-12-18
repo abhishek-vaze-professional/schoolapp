@@ -1,17 +1,16 @@
 import React from "react";
 import { Grid2, Stack } from "@mui/material";
-import schoolImg1 from "../../assets/images/Picture1.jpg";
-import schoolImg2 from "../../assets/images/Picture2.jpg";
-import schoolImg3 from "../../assets/images/Picture3.jpg";
 import "./dashboard.css";
 import "../common/common.css";
 import { Box } from "@mui/material";
 import { whiteBoxStyle } from "../common/commonUtil";
-import chairmanPic from '../../assets/images/Rajesh.jpeg';
 import DashboardCarousel from "./DashboardCarousel";
 import ChairmanCard from "./ChairmanCard";
+import Testimonial from "./Testimonial";
+import testimonialData from "../../data/testimonials.json";
 
 function dashboard() {
+  const testiData = testimonialData.data;
   /*let index = 1;
   const changeImg = () => {
     index++;
@@ -74,7 +73,9 @@ Together, let us embrace this new chapter in our school’s history. I am excite
         </p>
       </Box>
       <br></br>
-    </>
+      <Testimonial user={testiData[1]} ></Testimonial>
+      <br></br>
+        </>
   );
 }
 
