@@ -9,7 +9,7 @@ import "../staff/user.css";
 function ChairmanCard() {
   return (
     <Card sx={{ maxWidth: "500px", minWidth: "300px" }}>
-      <CardMedia component='img' alt='profile pic' height='350px' image={chairmanPic}></CardMedia>
+      <CardMedia component='img' alt='profile pic'  image={chairmanPic}></CardMedia>
       <CardContent>
         <p className='heading' sx={{ marginBottom: 2 }}>
           Dr. Rajesh Bhatkurse

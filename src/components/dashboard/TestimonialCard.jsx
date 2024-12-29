@@ -13,7 +13,7 @@ function TestimonialCard(props) {
     console.log(image);
   return (
     <Card sx={{ maxWidth: "500px", minWidth: "300px" }}>
-      <CardMedia component='img' alt='profile pic' height='350px' image={image}></CardMedia>
+      <CardMedia component='img' alt='profile pic' image={image}></CardMedia>
       <CardContent>
         <p className='heading' sx={{ marginBottom: 2 }}>
           {user.name}
