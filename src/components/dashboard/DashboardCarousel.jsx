@@ -3,9 +3,10 @@ import photoData from "../../data/dashboardPics.json";
 import useImage from "../common/useImage";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import { useMediaQuery, useTheme } from "@mui/material";
+import { useMediaQuery, useTheme, Stack, Box } from "@mui/material";
 function DashboardCarousel() {
   const photos = photoData.dashPics;
+  const folder = "dash";
   const theme = useTheme();
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
   return (
@@ -17,13 +18,20 @@ function DashboardCarousel() {
         showThumbs={false}
       >
         {photos.map((object, i) => {
-          const { loading, error, image } = useImage(object.img, "photoes");
+          console.log(i);
+          if (i === 0 || i%3 === 0) {
+          const image1 = useImage(photos[i].img, folder);
+          const image2 = useImage(photos[i + 1].img, folder);
+          const image3 = useImage(photos[i + 2].img, folder);
           return (
-            <div>
-              <img src={image} className="dashimg" />
-            </div>
+            <Stack direction="row" spacing={3} >
+              <Box><img src={image1.image} className="dashimg" /></Box>
+              <Box><img src={image2.image} className="dashimg" /></Box>
+              <Box><img src={image3.image} className="dashimg" /></Box>
+            </Stack>
           );
-        })}
+        }
+        }).filter((object, i) => i=== 0 || i%3 === 0)}
       </Carousel>
     </>
   );
