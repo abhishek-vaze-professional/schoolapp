@@ -256,3 +256,15 @@ font-size: larger;
   text-align: center;
 }
 
+.testiImage {
+    border-radius: 100px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px !important;
+    height: 250px;
+}
+
+.wrapit {
+  word-wrap: break-word;
+}
+
