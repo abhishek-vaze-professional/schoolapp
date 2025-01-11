@@ -39,9 +39,17 @@ function dashboard() {
       </Box>
       <br></br>
       <Box className='content whiteText' sx={whiteBoxStyle}>
+      <p className=' textFontLarge '>“Brief History”</p>
         <p className=' textFont '>
-          Goa VidyaPratishthan’s SHREE GANESH VIDYAMANDIR was founded in 2003. It is recognized by the Directorate of Education and the Goa S.S.C. Board. The School is managed by Goa Vidya
-          Pratishthan. The School is situated at the top of a hill in a healthy locality.
+        Goa Vidya Pratishthan’s Shree Ganesh Vidyamandir, is situated at the top of a hill in a healthy locality of Ganeshpuri, Mapusa-Goa, and is an esteemed educational institution that has been instrumental in shaping the educational landscape of the region. Established in 2003 under the guidance of visionary educators and community leaders, the school was founded with the aim of providing quality education infused with moral values and a strong cultural foundation.<br></br><br></br>
+
+From its inception, Shree Ganesh Vidyamandir aimed to cater to the educational needs of children in Mapusa and the surrounding areas. The school started with a modest number of students and faculty members but quickly gained recognition for its commitment to academic excellence and holistic development. Over the years, it expanded its infrastructure and curriculum, introducing a range of extracurricular activities that encouraged creativity and critical thinking among students.<br></br><br></br>
+
+The institution is affiliated with the Goa State Board of Secondary and Higher Secondary Education, offering education from the primary level through to secondary education. The focus on both academics and character-building has ensured that students are well-prepared for their future endeavours, whether in higher education or vocational paths.<br></br><br></br>
+
+With a young, dedicated and experienced faculty, Shree Ganesh Vidyamandir has continually adapted to the changing educational landscape, incorporating modern teaching methods and technology into the classroom. The school has emphasized the importance of community involvement, encouraging students to participate in various social and cultural initiatives that promote responsible citizenship.<br></br><br></br>
+
+As it looks towards the future, Shree Ganesh Vidyamandir remains dedicated to its mission of nurturing holistic development and a profound sense of nationalism in every student & providing high-quality education while fostering an environment where students can thrive academically, socially, and personally.
         </p>
       </Box>
       <br></br>
