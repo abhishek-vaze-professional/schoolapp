@@ -18,13 +18,13 @@ function dashboard() {
       <br></br>
       <Box className='content whiteText' sx={whiteBoxStyle}>
         <Grid2 container spacing={2}>
-          <Grid2 item size={{xs:12, sm:12, md:12, lg:3, xl:3}}>
+          <Grid2 item size={{xs:12, sm:12, md:12, lg:2, xl:2}} offset={{lg:3, xl:3}}>
             <Box>
               <ChairmanCard></ChairmanCard>
             </Box>
           </Grid2>
-          <Grid2 item size={{xs:12, sm:12, md:12, lg:9, xl:9}} >
-            <Box sx={{ alignSelf: "center", fontSize: { xs: "small", sm: "medium", md: "large", lg: "larger", xl: "x-large" } }}>
+          <Grid2 item size={{xs:12, sm:12, md:12, lg:5, xl:5}} >
+            <Box sx={{ alignSelf: "center", fontSize: { xs: "small", sm: "medium", md: "large", lg: "larger", xl: "larger" } }}>
               " Dear Students, Parents, Faculty, and Friends, I am thrilled to announce the launch of our school website, a significant milestone in our journey towards fostering an inclusive and
               engaging learning environment. In today’s digital age, effective communication and connectivity are vital to the success of any educational institution. With our new website, we aim to
               enhance our community's experience by providing valuable resources, timely updates, and a platform for shared knowledge. Our website serves not only as a hub of information but also as a
@@ -38,9 +38,9 @@ function dashboard() {
         </Grid2>
       </Box>
       <br></br>
-      <Box className='content whiteText' sx={whiteBoxStyle}>
+      <Box className='content whiteText' sx={{...whiteBoxStyle, alignSelf: "center", fontSize: { xs: "small", sm: "medium", md: "large", lg: "larger", xl: "larger" }}}>
       <p className=' textFontLarge '>“Brief History”</p>
-        <p className=' textFont '>
+        <p className=''>
         Goa Vidya Pratishthan’s Shree Ganesh Vidyamandir, is situated at the top of a hill in a healthy locality of Ganeshpuri, Mapusa-Goa, and is an esteemed educational institution that has been instrumental in shaping the educational landscape of the region. Established in 2003 under the guidance of visionary educators and community leaders, the school was founded with the aim of providing quality education infused with moral values and a strong cultural foundation.<br></br><br></br>
 
 From its inception, Shree Ganesh Vidyamandir aimed to cater to the educational needs of children in Mapusa and the surrounding areas. The school started with a modest number of students and faculty members but quickly gained recognition for its commitment to academic excellence and holistic development. Over the years, it expanded its infrastructure and curriculum, introducing a range of extracurricular activities that encouraged creativity and critical thinking among students.<br></br><br></br>
@@ -53,10 +53,10 @@ As it looks towards the future, Shree Ganesh Vidyamandir remains dedicated to it
         </p>
       </Box>
       <br></br>
-      <Box className='content whiteText' sx={whiteBoxStyle}>
+      <Box className='content whiteText' sx={{...whiteBoxStyle, alignSelf: "center", fontSize: { xs: "small", sm: "medium", md: "large", lg: "larger", xl: "larger" }}}>
         <p className=' textFontLarge '>“SGVM MISSION”</p>
 
-        <p className=' textFont '>
+        <p className=''>
           We are committed to nurturing holistic development and a profound sense of nationalism in every student. By cultivating excellence in every aspect of life and fostering a spirit of
           innovation, we aim to unlock their unique potential with fairness and inclusivity. Our vision extends to connecting students with social agencies to champion humanity, preserve cultural
           heritage, and drive meaningful change. We aspire to create empowered global citizens, equipped with ethics, resilience, and the skills to excel in life while contributing selflessly to the
@@ -65,7 +65,7 @@ As it looks towards the future, Shree Ganesh Vidyamandir remains dedicated to it
       </Box>
       <br></br>
       <Box className='content whiteText' sx={whiteBoxStyle}>
-        <Box className="centerit" sx={{fontSize: {xl:"xx-Large", lg:"xx-large", md:"x-large", sm:"large",xs: "large"}, fontWeight:"Bold", fontFamily:"Montserrat-B"}}>Testimonials</Box>
+        <Box className="centerit" sx={{fontSize: {xl:"larger", lg:"larger", md:"larger", sm:"large",xs: "large"}, fontWeight:"Bold", fontFamily:"Montserrat-B"}}>Testimonials</Box>
         <TestimonialCarousel></TestimonialCarousel>
       </Box>
       <br></br>

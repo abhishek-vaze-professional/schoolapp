@@ -17,7 +17,7 @@ function Testimonial(props) {
           </Box>
   </Grid2>*/}
           <Grid2 item size={{xs:12, sm:12, md:12, lg:12, xl:12}} >
-          <Box sx={{alignSelf: "center", fontSize:{xs:"small", sm:"medium", md:"large", lg:"larger", xl:"x-large"}}}>
+          <Box sx={{ alignSelf: "center", fontSize: { xs: "small", sm: "small", md: "medium", lg: "medium", xl: "medium" } }}>
             <p ><FormatQuoteIcon></FormatQuoteIcon></p>
           <p dangerouslySetInnerHTML={{__html: user.text}}/>
           </Box>

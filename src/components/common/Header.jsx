@@ -9,7 +9,7 @@ import DashboardCarousel from "../dashboard/DashboardCarousel";
 function Header() {
   return (
     <>
-      <Container className='' maxWidth='xxl'>
+      <Container className='textColor' maxWidth='xxl'>
         <Box
           sx={{
             height: "calc((95vw*903)/1600",
@@ -25,7 +25,7 @@ function Header() {
         <Box sx={{ background: "transparent", top: { xl: 90, lg: 75, md: 60, sm: 20, xs: 10 }, left: { xl: 260, lg: 200, md: 180, sm: 140, xs: 100 }, position: "absolute", zIndex: 1100 }}>
           <Box
             sx={{
-              color: "#B03052",
+              color: "#074799",
               textAlign: "start",
               fontSize: {
                 xs: "x-Small",
@@ -41,7 +41,7 @@ function Header() {
           </Box>
           <Box
             sx={{
-              color: "#B03052",
+              color: "#074799",
               fontWeight: "bolder",
               fontSize: {
                 xs: "Small",
@@ -58,7 +58,7 @@ function Header() {
           <Box
             sx={{
               textAlign: "start",
-              color: "#B03052",
+              color: "#074799",
               fontWeight: "bolder",
               fontSize: {
                 xs: "x-Small",
