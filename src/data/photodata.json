@@ -1,0 +1,47 @@
+{
+    "photoData": [
+        {
+            "groupId": 1,
+            "heading": "test1",
+            "folder": "test1Pic",
+            "photoes": [
+                {
+                    "id": 1,
+                    "img": "pic1",
+                    "desc": "Morning Assembly"
+                },
+                {
+                    "id": 2,
+                    "img": "pic2",
+                    "desc": "Expert Talk"
+                },
+                {
+                    "id": 3,
+                    "img": "pic3",
+                    "desc": "Expert Talk on Rabbies"
+                }
+            ]
+        },
+        {
+            "groupId": 2,
+            "heading": "test2Pic",
+            "photoes": [
+                {
+                    "id": 1,
+                    "img": "pic1",
+                    "desc": "Morning Assembly"
+                },
+                {
+                    "id": 2,
+                    "img": "pic2",
+                    "desc": "Expert Talk"
+                },
+                {
+                    "id": 3,
+                    "img": "pic3",
+                    "desc": "Expert Talk on Rabbies"
+                }
+            ]
+        }
+    ]
+}

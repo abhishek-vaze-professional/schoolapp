@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Dashboard from './components/dashboard/Dashboard';
 import Home from './components/home/Home';
@@ -15,6 +12,7 @@ import Carousel from "./components/carousel/Carousel";
 import Result from './components/results/Result';
 import Achievement from './components/achievement/Achievement';
 import ScrollButton from './components/common/ScrollButton';
+import Management from './components/management/Management';
 
 function App() {
 
@@ -34,6 +32,7 @@ function App() {
             <Route path="/carousel" element={<Carousel />} />
             <Route path="/result" element={<Result />} />
             <Route path="/achievement" element={<Achievement />} />
+            <Route path="/management" element={<Management />} />
             <Route path="*" element={ <Dashboard />} />
           </Routes>
   </BrowserRouter> 

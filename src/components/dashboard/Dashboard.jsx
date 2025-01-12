@@ -7,6 +7,7 @@ import { whiteBoxStyle } from "../common/commonUtil";
 import DashboardCarousel from "./DashboardCarousel";
 import ChairmanCard from "./ChairmanCard";
 import TestimonialCarousel from "./TestimonialCarousel";
+import YouTubeVideo from "../youtube/YouTubeVideo";
 
 function dashboard() {
   return (
@@ -62,6 +63,10 @@ As it looks towards the future, Shree Ganesh Vidyamandir remains dedicated to it
           heritage, and drive meaningful change. We aspire to create empowered global citizens, equipped with ethics, resilience, and the skills to excel in life while contributing selflessly to the
           betterment of society.
         </p>
+      </Box>
+      <br></br>
+      <Box className='content whiteText' sx={{...whiteBoxStyle, alignSelf: "center", fontSize: { xs: "small", sm: "medium", md: "large", lg: "larger", xl: "larger" }}}>
+        <YouTubeVideo></YouTubeVideo>
       </Box>
       <br></br>
       <Box className='content whiteText' sx={whiteBoxStyle}>
