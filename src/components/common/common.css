@@ -28,7 +28,7 @@
   top: 0;
   width: 100%;
   max-width: 100%;
-  color: #B03052;
+  color: #155E95;
   text-align: center;
   /*background-color: cornsilk;*/
   font-family: "Montserrat", Sans-serif;
@@ -40,7 +40,7 @@
 .titleFont {
   font-weight: bolder;
   font-size: xxx-large;
-  color: #B03052;
+  color: #155E95;
 }
 
 .nowrap {
@@ -56,7 +56,7 @@
 }
 
   a, a:visited {
-    color: #B03052;
+    color: #074799;
     text-decoration: none;
   }
   .paddingTab {
@@ -68,7 +68,7 @@
     color: goldenrod;
   }
   a, a:active {
-    color: #B03052;
+    color: #074799;
     text-decoration: none;
   }
 .padding2 {
@@ -266,5 +266,9 @@ font-size: larger;
 
 .wrapit {
   word-wrap: break-word;
+}
+
+.textColor {
+  color: #074799 !important;
 }
 
