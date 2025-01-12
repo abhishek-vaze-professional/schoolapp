@@ -61,3 +61,8 @@
 .indicator-inactive {
   background-color: grey;
 }
+
+.picImage {
+  width:60vw !important;
+  height:38vw !important;
+}

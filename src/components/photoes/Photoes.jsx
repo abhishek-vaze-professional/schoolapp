@@ -7,7 +7,7 @@ import Backdrop from '@mui/material/Backdrop';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
-import Carousel from '../carousel/Carousel';
+import PicCarousel from '../carousel/PicCarousel';
 import QuiltedImageList from "../common/QuiltedImageList";
 
 
@@ -17,7 +17,7 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: {
-    xs:"300px", sm:"400px", md:"500px",lg:"700px",xl:"800px"
+    xs:"300px", sm:"400px", md:"500px",lg:"800px",xl:"1500px"
   },
   bgcolor: 'background.paper',
   border: '2px solid #000',
@@ -46,16 +46,7 @@ function Photoes() {
             <Photo photo={object} handleOpen={handleOpen} />
           </Grid2>
         ))}
-      </Grid2>):(<QuiltedImageList images={photos} handleOpen={handleOpen}></QuiltedImageList>)}
-      {/*<Grid2 container spacing={2}>
-        {photos.map((object, i) => (
-          <Grid2 item>
-            <Photo photo={object} handleOpen={handleOpen} />
-          </Grid2>
-        ))}
-      </Grid2>*/}
-
-      
+      </Grid2>):(<QuiltedImageList images={photos} handleOpen={handleOpen}></QuiltedImageList>)}      
 
       <Modal
         aria-labelledby='transition-modal-title'
@@ -72,7 +63,7 @@ function Photoes() {
       >
         <Fade in={open}>
           <Box sx={style}>
-            <Carousel photoes={photos} selectedPhoto ={photo}/>
+            <PicCarousel photoes={photos} selectedPhoto ={photo}/>
           </Box>
         </Fade>
       </Modal>

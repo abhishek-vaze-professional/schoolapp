@@ -8,7 +8,6 @@ import Staff from './components/staff/Staff';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Carousel from "./components/carousel/Carousel";
 import Result from './components/results/Result';
 import Achievement from './components/achievement/Achievement';
 import ScrollButton from './components/common/ScrollButton';
@@ -29,7 +28,6 @@ function App() {
             <Route path="/school" element={<School />} />
             <Route path="/genesis" element={<Genesis />}></Route>
             <Route path="/staff" element={<Staff />} />
-            <Route path="/carousel" element={<Carousel />} />
             <Route path="/result" element={<Result />} />
             <Route path="/achievement" element={<Achievement />} />
             <Route path="/management" element={<Management />} />
