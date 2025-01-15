@@ -18,7 +18,6 @@ function DashboardCarousel() {
         showThumbs={false}
       >
         {photos.map((object, i) => {
-          console.log(i);
           if (i === 0 || i%3 === 0) {
           const image1 = useImage(photos[i].img, folder);
           const image2 = useImage(photos[i + 1].img, folder);

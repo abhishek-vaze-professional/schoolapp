@@ -15,6 +15,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { whiteBoxStyle } from "../common/commonUtil";
+import staffpic from "../../assets/images/staff-all.jpg";
 
 const style = {
   position: "absolute",
@@ -52,6 +53,10 @@ function Staff() {
         Staff
       </p>
       <Box className='content whiteText' sx={whiteBoxStyle}>
+          <img src={staffpic} className="staffimg" />
+        </Box>
+      <Box className='content whiteText' sx={whiteBoxStyle}>
+        
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls='panel1-content' id='panel1-header' className='accordion-odd subHeaders'>
             Secondary School Staff
