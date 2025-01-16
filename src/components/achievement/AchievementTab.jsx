@@ -22,7 +22,7 @@ CustomTabPanel.propTypes = {
   value: PropTypes.number.isRequired,
 };
 function AchievementTab() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(1);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
