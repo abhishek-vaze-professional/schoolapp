@@ -47,15 +47,6 @@ function Photoes() {
           </Grid2>
         ))}
       </Grid2>):(<QuiltedImageList images={photos} handleOpen={handleOpen}></QuiltedImageList>)}
-      {/*<Grid2 container spacing={2}>
-        {photos.map((object, i) => (
-          <Grid2 item>
-            <Photo photo={object} handleOpen={handleOpen} />
-          </Grid2>
-        ))}
-      </Grid2>*/}
-
-      
 
       <Modal
         aria-labelledby='transition-modal-title'
