@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ArrowCircleLeftRoundedIcon from '@mui/icons-material/ArrowCircleLeftRounded';
-import ArrowCircleRightRoundedIcon from '@mui/icons-material/ArrowCircleRightRounded';
+import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 import useImage from '../common/useImage';
 import "./Carousel.css";
 
@@ -19,7 +19,7 @@ export default function Carousel(props)  {
 
   return (
     <div className="carousel">
-      <ArrowCircleLeftRoundedIcon onClick={prevSlide} className="arrow arrow-left" />
+      <ArrowCircleLeftIcon onClick={prevSlide} className="arrow arrow-left" sx={{zIndex: 2, width:"3rem", height:"3rem", position: "absolute", color: "white"}} />
       {data.map((item, idx) => {
           const { loading, error, image } = useImage(item.img, "photoes");
           return (
@@ -31,9 +31,10 @@ export default function Carousel(props)  {
             />
           );
       })}
-      <ArrowCircleRightRoundedIcon
+      <ArrowCircleRightIcon
         onClick={nextSlide}
         className="arrow arrow-right"
+        sx={{zIndex: 2, width:"3rem", height:"3rem", position: "absolute", color: "white"}} 
       />
     </div>
   );
