@@ -51,7 +51,7 @@ const staff = props.user;
   const handleCardClick = () => {
     props.handleOpen(staff);
   };
-  const { loading, error, image } = useImage(staff.img, "staff");
+  const { loading, error, image } = useImage(staff.img, props.folder);
   return (
     <Card sx={{ maxWidth: 300, minWidth:300, cursor: "pointer", maxHeight: {xs:'300px', md:'350px'}}} onClick={handleCardClick}>
       <CardHeader

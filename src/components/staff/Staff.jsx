@@ -67,7 +67,7 @@ function Staff() {
                 if (object.type === HIGH_SCHOOL)
                   return (
                     <Grid2 item>
-                      <ProfileCard user={object} className='card' handleOpen={handleOpen}></ProfileCard>
+                      <ProfileCard user={object} className='card' handleOpen={handleOpen} folder="staff"></ProfileCard>
                     </Grid2>
                   );
               })}
@@ -84,7 +84,7 @@ function Staff() {
                 if (object.type === PRIMARY)
                   return (
                     <Grid2 item>
-                      <ProfileCard user={object} className='card' handleOpen={handleOpen}></ProfileCard>
+                      <ProfileCard user={object} className='card' handleOpen={handleOpen} folder="staff"></ProfileCard>
                     </Grid2>
                   );
               })}
@@ -101,7 +101,7 @@ function Staff() {
                 if (object.type === PREPRIMARY)
                   return (
                     <Grid2 item>
-                      <ProfileCard user={object} className='card' handleOpen={handleOpen}></ProfileCard>
+                      <ProfileCard user={object} className='card' handleOpen={handleOpen} folder="staff"></ProfileCard>
                     </Grid2>
                   );
               })}
@@ -118,7 +118,7 @@ function Staff() {
                 if (object.type === NON_TEACHING)
                   return (
                     <Grid2 item>
-                      <ProfileCard user={object} className='card' handleOpen={handleOpen}></ProfileCard>
+                      <ProfileCard user={object} className='card' handleOpen={handleOpen} folder="staff"></ProfileCard>
                     </Grid2>
                   );
               })}
