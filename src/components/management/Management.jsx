@@ -14,6 +14,7 @@ import { Box } from "@mui/material";
 import { whiteBoxStyle } from "../common/commonUtil";
 import { mgmtData } from "../../data/managementPicData.json";
 import ProfileCard from "../staff/ProfileCard";
+import BasicImageTable from "../common/BasicImageTable";
 
 function Management() {
   const HIGH_SCHOOL = "highSchool";
@@ -23,7 +24,7 @@ function Management() {
         School Management
       </p>
       <Box className='content textColorGray' sx={whiteBoxStyle}>
-        <Grid2 container spacing={2}>
+        {/*<Grid2 container spacing={2}>
           {mgmtData.map((object, i) => {
               return (
                 <Grid2 item>
@@ -31,14 +32,14 @@ function Management() {
                 </Grid2>
               );
           })}
-        </Grid2>
+        </Grid2> */}
         <br></br>
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls='panel1-content' id='panel1-header' className='accordion-odd'>
             <Diversity3Icon /> <span className='paddingLeft30 subHeaders'>GOVERNING BODY (2023 - 2026)</span>
           </AccordionSummary>
           <AccordionDetails>
-            <BasicTable data={govbodydata}></BasicTable>
+            <BasicImageTable data={govbodydata}></BasicImageTable>
           </AccordionDetails>
         </Accordion>
         <Accordion>
