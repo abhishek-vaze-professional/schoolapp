@@ -11,17 +11,15 @@ import Carousel from '../carousel/Carousel';
 import QuiltedImageList from "../common/QuiltedImageList";
 
 
-const style = {
+const style1 = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: {
-    xs:"300px", sm:"400px", md:"500px",lg:"700px",xl:"800px"
-  },
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
+  width:'80vw !important',
   p: 4,
 };
 
@@ -62,7 +60,7 @@ function Photoes() {
         }}
       >
         <Fade in={open}>
-          <Box sx={style}>
+          <Box sx={style1}>
             <Carousel photoes={photos} selectedPhoto ={photo}/>
           </Box>
         </Fade>

@@ -3,11 +3,12 @@ import useImage from '../common/useImage';
 import Box from '@mui/material/Box';
 import '../common/common.css';
 function Photo(props) {
+  const folder = props.folder;
     const photo = props.photo;
     const handleCardClick = () => {
         props.handleOpen(photo);
       };
-    const { loading, error, image } = useImage(photo.img, "photoes");
+    const { loading, error, image } = useImage(photo.img, folder);
   return (
     <Box className='pointit' onClick={handleCardClick}>
         <Box className=''>

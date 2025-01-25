@@ -18,16 +18,16 @@ export default function Carousel(props)  {
   };
 
   return (
-    <div className="carousel">
+    <div className="carousel-my">
       <ArrowCircleLeftIcon onClick={prevSlide} className="arrow arrow-left" sx={{zIndex: 2, width:"3rem", height:"3rem", position: "absolute", color: "white"}} />
       {data.map((item, idx) => {
-          const { loading, error, image } = useImage(item.img, "photoes");
+          const { loading, error, image } = useImage(item.img, props.folder);
           return (
             <img
               src={image}
               alt={"image"}
               key={idx}
-              className={slide === idx ? "slide" : "slide slide-hidden"}
+              className={slide === idx ? "slide carimg" : "slide slide-hidden carimg"}
             />
           );
       })}

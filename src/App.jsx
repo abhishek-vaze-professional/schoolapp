@@ -1,7 +1,7 @@
 import './App.css'
 import Dashboard from './components/dashboard/Dashboard';
 import Home from './components/home/Home';
-import Photoes from './components/photoes/Photoes';
+import LifeAtSGVM from './components/photoes/LifeAtSGVM';
 import School from './components/school/School';
 import Genesis from './components/genesis/Genesis';
 import Staff from './components/staff/Staff';
@@ -25,7 +25,7 @@ function App() {
           <Routes>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/home" element={<Home /> } />
-            <Route path="/photoes" element={<Photoes />} />
+            <Route path="/photoes" element={<LifeAtSGVM />} />
             <Route path="/school" element={<School />} />
             <Route path="/genesis" element={<Genesis />}></Route>
             <Route path="/staff" element={<Staff />} />

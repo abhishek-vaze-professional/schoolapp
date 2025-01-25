@@ -1,47 +1,1204 @@
 {
-    "photoData": [
+  "photoData": [
+    {
+      "groupId": 1,
+      "heading": "Achievments - Cultural - Morulo Dance",
+      "folder": "MoruloDance",
+      "photoes": [
         {
-            "groupId": 1,
-            "heading": "test1",
-            "folder": "test1Pic",
-            "photoes": [
-                {
-                    "id": 1,
-                    "img": "pic1",
-                    "desc": "Morning Assembly"
-                },
-                {
-                    "id": 2,
-                    "img": "pic2",
-                    "desc": "Expert Talk"
-                },
-                {
-                    "id": 3,
-                    "img": "pic3",
-                    "desc": "Expert Talk on Rabbies"
-                }
-            ]
+          "id": 1,
+          "img": "pic1"
         },
         {
-            "groupId": 2,
-            "heading": "test2Pic",
-            "photoes": [
-                {
-                    "id": 1,
-                    "img": "pic1",
-                    "desc": "Morning Assembly"
-                },
-                {
-                    "id": 2,
-                    "img": "pic2",
-                    "desc": "Expert Talk"
-                },
-                {
-                    "id": 3,
-                    "img": "pic3",
-                    "desc": "Expert Talk on Rabbies"
-                }
-            ]
+          "id": 2,
+          "img": "pic2"
+        },
+        {
+          "id": 3,
+          "img": "pic3"
         }
-    ]
+      ]
+    },{
+      "groupId": 2,
+      "heading": "Achievments - Cultural - Patriotic singing group",
+      "folder": "Patriotic singing group",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "1st place at Patriotic Group Singing competition  organised by MMC Mapusa."
+        },
+        {
+          "id": 2,
+          "img": "1st place Patriotic singing group(U-14) winner Rotary club of Mapusa"
+        },
+        {
+          "id": 3,
+          "img": "Bagged 1st place at Patriotic Group Singing competition at Taluka level organised by Balbhavan Panaji and now qualified for State Level"
+        },
+        {
+          "id": 4,
+          "img": "Bagged f1st place at Patriotic Group Singing competition  organised by MMC Mapusa"
+        },
+        {
+          "id": 5,
+          "img": "Bagged f1st place at State Level in Patriotic Group Singing competition  organised by Balbhavan,  Panaji"
+        },
+        {
+          "id": 6,
+          "img": "Falicitation of patriotic singing group by management"
+        },
+        {
+          "id": 7,
+          "img": "WhatsApp Image 2023-08-19 at 8.37.57 PM",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "groupId": 3,
+      "heading": "Achievments - Cultural - Taluka level Sane Guruji Story Telling Competition",
+      "folder": "Taluka level Sane Guruji Story Telling Competition",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "Mast. Bhaskar Sathe 1st Place",
+          "desc": "Mast. Bhaskar Sathe 1st Place"
+        },
+        {
+          "id": 2,
+          "img": "Mast. Shubhan Shirgaonkar 3rd place",
+          "desc": "Mast. Shubhan Shirgaonkar 3rd place"
+        }
+      ]
+    },
+    {
+      "groupId": 4,
+      "heading": "Achievments - Cultural",
+      "folder": "Cultural",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "Mast Bhaskar Sathe won 3rd prize in Elocution Competition organised by Vinayak Kala Sangh Vasco"
+        },
+        {
+          "id": 2,
+          "img": "WhatsApp Image 2024-09-02 at 9.19.32 PM"
+        },
+        {
+          "id": 3,
+          "img": "p1"
+        },
+        {
+          "id": 4,
+          "img": "WhatsApp Image 2024-09-12 at 8.21.31 PM"
+        }
+      ]
+    },
+    
+    {
+      "groupId": 5,
+      "heading": "Achievments - Sports",
+      "folder": "Sports",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        },
+        {
+          "id": 6,
+          "img": "p6"
+        },
+        {
+          "id": 7,
+          "img": "p7"
+        },
+        {
+          "id": 8,
+          "img": "p8"
+        },
+        {
+          "id": 9,
+          "img": "p9"
+        },
+        {
+          "id": 10,
+          "img": "p10"
+        },
+        {
+          "id": 11,
+          "img": "p11"
+        },
+        {
+          "id": 12,
+          "img": "p12"
+        },
+        {
+          "id": 13,
+          "img": "p13"
+        },
+        {
+          "id": 14,
+          "img": "p14"
+        },
+        {
+          "id": 15,
+          "img": "p15"
+        }
+      ]
+    },
+    {
+      "groupId": 6,
+      "heading": "Event & Activites",
+      "folder": "Event & Activites",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        }
+      ]
+    },
+    {
+      "groupId": 7,
+      "heading": "Event & Activites - Annual Gathering",
+      "folder": "Annual Gathering",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        },
+        {
+          "id": 6,
+          "img": "p6"
+        },
+        {
+          "id": 7,
+          "img": "p7"
+        }
+      ]
+    },
+    {
+      "groupId": 8,
+      "heading": "Event & Activites - Annual Sports",
+      "folder": "Annual Sports",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        },
+        {
+          "id": 6,
+          "img": "p6"
+        },
+        {
+          "id": 7,
+          "img": "p7"
+        },
+        {
+          "id": 8,
+          "img": "p8"
+        },
+        {
+          "id": 9,
+          "img": "p9"
+        },
+        {
+          "id": 10,
+          "img": "p10"
+        },
+        {
+          "id": 11,
+          "img": "p11"
+        }
+      ]
+    },
+    {
+      "groupId": 9,
+      "heading": "Event & Activites - Annual Sports meet",
+      "folder": "Annual Sports meet",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        }
+      ]
+    },
+    {
+      "groupId": 10,
+      "heading": "Event & Activites - Chaturthi Celebration",
+      "folder": "Chaturthi Celebration",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        }
+      ]
+    },
+    {
+      "groupId": 11,
+      "heading": "Event & Activites - Clenliness drive",
+      "folder": "Clenliness drive",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 12,
+      "heading": "Event & Activites - Demonstration of decorative items from leaves on world environment day",
+      "folder": "Demonstration of decorative items from leaves on world environment day",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        }
+      ]
+    },
+    {
+      "groupId": 13,
+      "heading": "Event & Activites - Expert Talk",
+      "folder": "Expert Talk",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        },
+        {
+          "id": 6,
+          "img": "p6"
+        },
+        {
+          "id": 7,
+          "img": "p7"
+        },
+        {
+          "id": 8,
+          "img": "p8"
+        },
+        {
+          "id": 9,
+          "img": "p9"
+        },
+        {
+          "id": 10,
+          "img": "p10"
+        },
+        {
+          "id": 11,
+          "img": "p11"
+        }
+      ]
+    },
+    {
+      "groupId": 14,
+      "heading": "Event & Activites - field trip",
+      "folder": "field trip",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        },
+        {
+          "id": 6,
+          "img": "p6"
+        },
+        {
+          "id": 7,
+          "img": "p7"
+        },
+        {
+          "id": 8,
+          "img": "p8"
+        },
+        {
+          "id": 9,
+          "img": "p9"
+        },
+        {
+          "id": 10,
+          "img": "p10"
+        },
+        {
+          "id": 11,
+          "img": "p11"
+        }
+      ]
+    },
+    {
+      "groupId": 15,
+      "heading": "Event & Activites - Fire Mock Drill",
+      "folder": "Fire Mock Drill",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 16,
+      "heading": "Event & Activites - Health checkup",
+      "folder": "Health checkup",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 17,
+      "heading": "Event & Activites - Hemoglobin Checkup",
+      "folder": "Hemoglobin Checkup",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 18,
+      "heading": "Event & Activites - Hike",
+      "folder": "Hike",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        }
+      ]
+    },
+    {
+      "groupId": 19,
+      "heading": "Event & Activites - Makar Sakrant",
+      "folder": "Makar Sakrant",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        }
+      ]
+    },
+    {
+      "groupId": 20,
+      "heading": "Event & Activites - Picnic",
+      "folder": "Picnic",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        },
+        {
+          "id": 6,
+          "img": "p6"
+        }
+      ]
+    },
+    {
+      "groupId": 21,
+      "heading": "Event & Activites - Rally",
+      "folder": "Rally",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        }
+      ]
+    },
+    {
+      "groupId": 25,
+      "heading": "Event & Activites - Ram Janmastami",
+      "folder": "Ram Janmastami",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        }
+      ]
+    },
+    {
+      "groupId": 26,
+      "heading": "Event & Activites - Rang Panchami (Shishuvatika)",
+      "folder": "Rang Panchami (Shishuvatika)",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        }
+      ]
+    },
+    {
+      "groupId": 27,
+      "heading": "Event & Activites - Residencial camp",
+      "folder": "Residencial camp",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 27,
+      "heading": "Event & Activites - Sharadotsav",
+      "folder": "Sharadotsav",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        }
+      ]
+    },
+    {
+      "groupId": 28,
+      "heading": "Event & Activites - Subject Activity",
+      "folder": "Subject Activity",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        },
+        {
+          "id": 6,
+          "img": "p6"
+        },
+        {
+          "id": 7,
+          "img": "p7"
+        }
+      ]
+    },
+    {
+      "groupId": 29,
+      "heading": "Event & Activites - Summer Camp",
+      "folder": "Summer Camp",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        }
+      ]
+    },
+    {
+      "groupId": 30,
+      "heading": "Event & Activites - Surya namaskar",
+      "folder": "Surya namaskar",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        }
+      ]
+    },
+    {
+      "groupId": 31,
+      "heading": "Event & Activites - Tilak Punyatithi",
+      "folder": "Tilak Punyatithi",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        }
+      ]
+    },
+    {
+      "groupId": 32,
+      "heading": "Event & Activites - Yog day",
+      "folder": "Yog day",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        }
+      ]
+    },
+    {
+      "groupId": 33,
+      "heading": "Event & Activites - Yuvak Din",
+      "folder": "Yuvak Din",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        }
+      ]
+    },
+    {
+      "groupId": 34,
+      "heading": "Lessons on Interective Smart Board",
+      "folder": "Lessons on Interective Smart Board",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 35,
+      "heading": "Morning assembly",
+      "folder": "Morning assembly",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 36,
+      "heading": "Our school",
+      "folder": "Our school",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        },
+        {
+          "id": 6,
+          "img": "p6"
+        },
+        {
+          "id": 7,
+          "img": "p7"
+        },
+        {
+          "id": 8,
+          "img": "p8"
+        },
+        {
+          "id": 9,
+          "img": "p9"
+        },
+        {
+          "id": 10,
+          "img": "p10"
+        },
+        {
+          "id": 11,
+          "img": "p11"
+        },
+        {
+          "id": 12,
+          "img": "p12"
+        },
+        {
+          "id": 13,
+          "img": "p13"
+        }
+      ]
+    },
+    {
+      "groupId": 37,
+      "heading": "Special Program - Aaji Ajoba Diwas",
+      "folder": "Aaji Ajoba Diwas",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 38,
+      "heading": "Special Program - Art & Music class",
+      "folder": "Art & Muisc class",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 39,
+      "heading": "Special Program - Balika Shikshan",
+      "folder": "Balika Shikshan",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 40,
+      "heading": "Special Program - Dev Darshan",
+      "folder": "Dev Darshan",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        }
+      ]
+    },
+    {
+      "groupId": 41,
+      "heading": "Special Program - Doordarshan",
+      "folder": "Doordarshan",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 42,
+      "heading": "Special Program - Gokul Ashtami",
+      "folder": "Gokul Ashtami",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        }
+      ]
+    },
+    {
+      "groupId": 43,
+      "heading": "Special Program - GuruPoornima",
+      "folder": "GuruPoornima",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        }
+      ]
+    },
+    {
+      "groupId": 44,
+      "heading": "Special Program - Heros Celebration",
+      "folder": "Heros Celebration",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        }
+      ]
+    },
+    {
+      "groupId": 45,
+      "heading": "Special Program - Matru Pujan",
+      "folder": "Matru Pujan",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        }
+      ]
+    },
+    {
+      "groupId": 46,
+      "heading": "Special Program - Samarpan",
+      "folder": "Samarpan",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        },
+        {
+          "id": 5,
+          "img": "p5"
+        }
+      ]
+    },
+    {
+      "groupId": 47,
+      "heading": "Special Program - Shramadaan",
+      "folder": "Shramadaan",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        },
+        {
+          "id": 4,
+          "img": "p4"
+        }
+      ]
+    },
+    {
+      "groupId": 48,
+      "heading": "Special Program - Swadesh Saptah",
+      "folder": "Swadesh Saptah",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        }
+      ]
+    },
+    {
+      "groupId": 49,
+      "heading": "Special Program - Van Bhojan",
+      "folder": "Van Bhojan",
+      "photoes": [
+        {
+          "id": 1,
+          "img": "p1"
+        },
+        {
+          "id": 2,
+          "img": "p2"
+        },
+        {
+          "id": 3,
+          "img": "p3"
+        }
+      ]
+    }
+  ]
 }
