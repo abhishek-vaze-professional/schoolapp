@@ -285,3 +285,6 @@ font-size: larger;
 .MuiTabs-indicator {
   background-color: crimson !important;
 }
+.hlite:hover {
+  background-color: #62615C;
+}

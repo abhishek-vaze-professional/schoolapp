@@ -14,7 +14,7 @@ function home() {
   return (
     <>
       <p className='sHeader capriolafont textColorGray' id='head'>
-        Home
+        Admissions and Others
       </p>
       <div className='content textColorGray justifyme' >
         <Box className='whiteBox' sx={whiteBoxStyle}>

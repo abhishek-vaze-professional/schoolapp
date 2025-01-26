@@ -14,7 +14,7 @@ function dashboard() {
     <>
       <DashboardCarousel></DashboardCarousel>
       <p className='sHeader capriolafont textColorGray' id='head'>
-        About Us
+        SVGM At Glance
       </p>
       <br></br>
       <Box className='content whiteText' sx={whiteBoxStyle}>
