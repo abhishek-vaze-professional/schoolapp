@@ -11,7 +11,7 @@ const TabHeader = () => {
   
   return (
     <React.Fragment>
-      <Box sx={{ background: "transparent", top: 10, right: 30, position: "absolute", zIndex: 1100 }}>
+      <Box sx={{ background: "transparent", top: 10, left: { xl: 260, lg: 200, md: 180, sm: 140, xs: 100 }, position: "absolute", zIndex: 1100 }}>
         <Toolbar>
           {isMatch ? (
             <>

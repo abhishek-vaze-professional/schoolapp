@@ -288,3 +288,13 @@ font-size: larger;
 .hlite:hover {
   background-color: #62615C;
 }
+.MuiToolbar-root {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.menuIcon {
+  display: inline-flex;
+  vertical-align: top;
+}
+

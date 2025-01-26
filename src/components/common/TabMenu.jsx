@@ -44,10 +44,10 @@ function TabMenu(props) {
       >
         {page.submenu && (
           <span onClick={(event) => clickLink(event, page.path)} className="pointit">
-            {page.title}{" "}<span><ExpandMoreIcon /> </span>
+            {page.title}{" "}<ExpandMoreIcon className="menuIcon" /> 
           </span>
         )}
-        {!page.submenu && <span onClick={(event) => clickLink(event, page.path)} className="pointit">{page.title} </span>}
+        {!page.submenu && <span onClick={(event) => clickLink(event, page.path)} className="pointit">{page.title}  </span> }
       </Box>
       {page.submenu && (
         <TabSubMenu page={page} anchorEl={anchorEl} handleClose={handleClose}></TabSubMenu>

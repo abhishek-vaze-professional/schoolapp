@@ -4,7 +4,7 @@ import schoolLogo from "../../assets/images/logo1.png";
 import { Container, Divider, Grid2, Box } from "@mui/material";
 import TabHeader from "./TabHeader";
 import schoolbg from "../../assets/images/school-bg.jpg";
-import DashboardCarousel from "../dashboard/DashboardCarousel";
+import ganeshImg from "../../assets/images/ganesh.png";
 
 function Header() {
   return (
@@ -21,6 +21,9 @@ function Header() {
         </Box>
         <Box sx={{ background: "transparent", top: 10, left: 30, position: "absolute", zIndex: 1100, height: "calc((10vw*262)/202)", width: "10 vw" }}>
           <img src={schoolLogo} className='resIg' />
+        </Box>
+        <Box sx={{ background: "transparent", top: 10, right: 30, position: "absolute", zIndex: 1100, height: "calc((10vw*262)/202)", width: "10 vw" }}>
+          <img src={ganeshImg} className='resIg' />
         </Box>
         <Box sx={{ background: "transparent", top: { xl: 90, lg: 75, md: 60, sm: 20, xs: 10 }, left: { xl: 260, lg: 200, md: 180, sm: 140, xs: 100 }, position: "absolute", zIndex: 1100 }}>
           <Box
