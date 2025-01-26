@@ -36,4 +36,13 @@ export function validateMobileNumber(mob) {
  }
  export const whiteBoxStyle = {backgroundColor: "#155E95", color: "white", padding:{xs: "5px", sm: "10px", md:"15px", lg:"30px", xl:"50px"}};
 
+ export const pages = [
+    { title: "About Us", path: "",
+    submenu:[{ title: "SGVM At Glance", path: "dashboard"},{ title: "Admissions & Others", path: "home"},{ title: "Our School", path: "school"}]  },
+    { title: "Administration", path: "", submenu:[{ title: "Management", path: "management"},{ title: "Faculty", path: "staff"}] },
+    { title: "Results", path: "/result" },
+    { title: "Achievements", path: "/achievement" },
+    { title: "Photo Gallery", path: "/photoes" },
+  ];
+
   
