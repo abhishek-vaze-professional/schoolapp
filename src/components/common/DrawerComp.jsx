@@ -27,7 +27,7 @@ const DrawerComp = () => {
         </List>
       </Drawer>
       <IconButton
-        sx={{ color: "white", marginLeft: "auto" }}
+        sx={{ color: "#074799", position: "absolute", top: 10, left:{xs:300, sm:300, md:500}, zIndex:3100}}
         onClick={() => setOpenDrawer(!openDrawer)}
       >
         <MenuIcon color="white" />
