@@ -32,8 +32,8 @@ function AchievementTab() {
     <Box sx={{ width: "100%" }}>
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
         <Tabs value={value} onChange={handleChange} aria-label='basic tabs example'>
-          <Tab label='2023 - 24' />
-          <Tab label='2024 - 25' />
+          <Tab label='2023 - 24' sx={{color:"white", fontWeight: "Bold"}}/>
+          <Tab label='2024 - 25' sx={{color:"white", fontWeight: "Bold"}}/>
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>

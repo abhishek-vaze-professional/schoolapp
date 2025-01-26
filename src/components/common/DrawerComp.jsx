@@ -16,7 +16,7 @@ const pages = [{title:"About Us", path:"/dashboard"},
   {title:"Administration", children:[{title:"Management", path:"/management"}, {title:"Staff", path:"/staff"}]},
   {title:"Results", path:"/result"},
   {title:"Achievements", path:"/achievement"},
-  {title:"Life At SGVM", path:"/photoes"}];
+  {title:"Photo Gallery", path:"/photoes"}];
   //{title:"Genesis of School", path:"/genesis"},
 const DrawerComp = () => {
   const navigate = useNavigate();

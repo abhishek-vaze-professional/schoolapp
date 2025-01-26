@@ -24,7 +24,7 @@ function Testimonial(props) {
           </Box>
   </Grid2>*/}
           <Grid2 item size={{xs:12, sm:12, md:12, lg:12, xl:12}} >
-          <Box sx={{ alignSelf: "center", fontSize: { xs: "small", sm: "small", md: "medium", lg: "medium", xl: "medium" } }}>
+          <Box sx={{ alignSelf: "center", fontSize: { xs: "small", sm: "small", md: "medium", lg: "medium", xl: "medium" } }} className="justifyme">
             <p ><FormatQuoteIcon></FormatQuoteIcon></p>
           <p dangerouslySetInnerHTML={{__html: userText}}/>
           {user.text.length > 600 && !expand &&
@@ -37,7 +37,7 @@ function Testimonial(props) {
           tabIndex={-1}
           startIcon={<MoreIcon />}
         >
-          Click to Read More
+          Read More
         </Button>
           }
           </Box>

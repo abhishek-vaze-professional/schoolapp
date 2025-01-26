@@ -16,7 +16,7 @@ function home() {
       <p className='sHeader capriolafont textColorGray' id='head'>
         Home
       </p>
-      <div className='content textColorGray'>
+      <div className='content textColorGray justifyme' >
         <Box className='whiteBox' sx={whiteBoxStyle}>
           <p className='subHeaders'>
             <b>ADMISSION AND WITHDRAWAL</b>

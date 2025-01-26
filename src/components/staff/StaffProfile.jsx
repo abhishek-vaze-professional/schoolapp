@@ -14,7 +14,7 @@ function StaffProfile(props) {
       <Box sx={{textAlign: "center", padding: "5px", fontFamily: "Montserrat, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"medium", md:"medium",lg:"large",xl:"x-large"}}} >{staff.name}</Box>
       <Box sx={{fontWeight: "bolder", padding: "5px", textAlign: "center", fontFamily: "Montserrat, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}} >{staff.designation}</Box>
       <Box sx={{fontWeight: "bold", padding: "5px", textAlign: "center", fontFamily: "Montserrat, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}} >{staff.edu}</Box>
-      <Box sx={{fontFamily: "Montserrat, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}}>
+      <Box sx={{fontFamily: "Montserrat, Sans-serif", color: "#62615C", fontSize: {xs:"Small", sm:"small", md:"medium",lg:"large",xl:"x-large"}}} className="justifyme">
         <ul>
           {staff.details.map((object, i) => (
             <li>{object}</li>

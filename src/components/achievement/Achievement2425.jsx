@@ -30,7 +30,7 @@ function Achievement2425() {
           aria-controls="panel1-content"
           id="panel1-header" className='accordion-odd subHeaders'
         >
-          Non Sports
+          Other Curriculum Areas
         </AccordionSummary>
         <AccordionDetails>
         <AchievementList data={achievementData.achievementData.others}/>

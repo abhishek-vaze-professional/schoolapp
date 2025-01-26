@@ -8,7 +8,7 @@ function School() {
   return (
     <>
       <p className="sHeader capriolafont textColorGray" id="head">Our School</p>
-      <Box className="content textColorGray" sx={whiteBoxStyle}>
+      <Box className="content textColorGray justifyme" sx={whiteBoxStyle}>
       <p className="subHeaders">
         <b>Features of our school at a glance</b>
       </p>
@@ -34,7 +34,7 @@ function School() {
       </Box>
       <br></br>
       <br></br>
-      <Box className="content textColorGray" sx={whiteBoxStyle}>
+      <Box className="content textColorGray justifyme" sx={whiteBoxStyle}>
       <p className="subHeaders">
         <b>Facilities</b>
       </p>
@@ -52,6 +52,7 @@ function School() {
         <li>Open ground</li>
         <li>Counselling</li>
         <li>Fire safety equipment & Security</li>
+        <li>CCTV - Equipped with CCTV facilities to enhance the safety and security of our students and staff.</li>
       </ul>
       </Box>
       <br></br>

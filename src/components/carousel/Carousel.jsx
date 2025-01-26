@@ -27,7 +27,7 @@ export default function Carousel(props)  {
               src={image}
               alt={"image"}
               key={idx}
-              className={slide === idx ? "slide carimg" : "slide slide-hidden carimg"}
+              className={slide === idx ? "slide-my carimg" : "slide-my slide-hidden carimg"}
             />
           );
       })}
