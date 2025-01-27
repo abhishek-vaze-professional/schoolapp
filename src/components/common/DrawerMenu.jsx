@@ -13,7 +13,7 @@ function DrawerMenu(props) {
   };
   const handleClose = (path) => {
     setAnchorEl(null);
-    setOpenDrawer(!openDrawer);
+    props.closeDrawer();
     navigate(path);
   };
   return (
@@ -21,7 +21,7 @@ function DrawerMenu(props) {
       <ListItemButton key={props.index}>
         <ListItemIcon>
           {page.path && (
-            <ListItemText onClick={() => setOpenDrawer(!openDrawer)}>
+            <ListItemText onClick={props.closeDrawer}>
               <Link to={page.path}>{page.title}</Link>
             </ListItemText>
           )}

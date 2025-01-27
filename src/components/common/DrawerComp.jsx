@@ -12,22 +12,25 @@ import DrawerMenu from "./DrawerMenu";
 
 const DrawerComp = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
+  const closeDrawer = () => {
+    setOpenDrawer(false);
+  }
   return (
     <React.Fragment>
       <>
       <Drawer
         anchor="left"
         open={openDrawer}
-        onClose={() => setOpenDrawer(false)}
+        onClose={closeDrawer}
       >
         <List>
           {pages.map((page, index) => (
-            <DrawerMenu page={page} index={index} />
+            <DrawerMenu page={page} index={index} closeDrawer={closeDrawer} />
           ))}
         </List>
       </Drawer>
       <IconButton
-        sx={{ color: "#074799", position: "absolute", top: 10, left:{xs:300, sm:300, md:500}, zIndex:3100}}
+        sx={{ color: "#074799", position: "absolute", top: 10, left:{xs:210, sm:320, md:500}, zIndex:3100}}
         onClick={() => setOpenDrawer(!openDrawer)}
       >
         <MenuIcon color="white" />
