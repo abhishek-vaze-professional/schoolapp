@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid2 } from "@mui/material";
+import { Grid2, Stack } from "@mui/material";
 import "./dashboard.css";
 import "../common/common.css";
 import { Box } from "@mui/material";
@@ -55,7 +55,7 @@ As it looks towards the future, Shree Ganesh Vidyamandir remains dedicated to it
       </Box>
       <br></br>
       <Box className='content whiteText' sx={{...whiteBoxStyle, alignSelf: "center", fontSize: { xs: "small", sm: "medium", md: "large", lg: "larger", xl: "larger" }}}>
-        <p className=' textFontLarge '>“SGVM MISSION” <span style={{paddingLeft:"20px"}}>ज्ञानार्थ आइए । सेवार्थ जाइए ।।</span></p>
+        <Stack direction={"row"}><Box className=' textFontLarge ' sx={{alignContent:"center"}}>“SGVM MISSION” </Box><Box sx={{paddingLeft:"56px", fontSize:{ xs: "x-large", sm: "xx-large", md: "xx-large", lg: "xx-large", xl: "xx-large" }, color: "lightyellow"}}>ज्ञानार्थ आइए । सेवार्थ जाइए ।।</Box></Stack>
 
         <p className="justifyme">
           We are committed to nurturing holistic development and a profound sense of nationalism in every student. By cultivating excellence in every aspect of life and fostering a spirit of
@@ -65,8 +65,10 @@ As it looks towards the future, Shree Ganesh Vidyamandir remains dedicated to it
         </p>
       </Box>
       <br></br>
-      <Box className='content whiteText' sx={{...whiteBoxStyle, alignSelf: "center", fontSize: { xs: "small", sm: "medium", md: "large", lg: "larger", xl: "larger" }}}>
-        <YouTubeVideo></YouTubeVideo>
+      <Box className='content whiteText' sx={{...whiteBoxStyle, fontSize: { xs: "small", sm: "medium", md: "large", lg: "larger", xl: "larger" }}}>
+        <Grid2 container>
+        <Grid2 item size={{ xs: 12, sm: 12, md: 8, lg:10, xl:10 }} offset={{ xs: 0, sm: 0, md: 2, lg: 2, xl:2 }}><YouTubeVideo></YouTubeVideo></Grid2>
+        </Grid2>
       </Box>
       <br></br>
       <Box className='content whiteText' sx={whiteBoxStyle}>

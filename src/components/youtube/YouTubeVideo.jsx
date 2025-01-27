@@ -3,8 +3,8 @@ import YouTube from 'react-youtube';
 import { useMediaQuery, useTheme } from "@mui/material";
 function YouTubeVideo() {
   const theme = useTheme();
-  const isMatch = useMediaQuery(theme.breakpoints.down("md"));
-  const videoWidth = isMatch ? '100%': '50%';
+  const isMatch = useMediaQuery(theme.breakpoints.down("lg"));
+  const videoWidth = isMatch ? '100%': '80%';
     const opts = {
         height: '390',
         width: videoWidth,
