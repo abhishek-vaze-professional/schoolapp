@@ -1,0 +1,28 @@
+{
+    "photoData": [
+      {
+        "groupId": 34,
+        "heading": "Lessons on Interective Smart Board",
+        "folder": "Lessons on Interective Smart Board",
+        "photoes": [
+          {
+            "id": 1,
+            "img": "p1"
+          },
+          {
+            "id": 2,
+            "img": "p2"
+          },
+          {
+            "id": 3,
+            "img": "p3"
+          },
+          {
+            "id": 4,
+            "img": "p4"
+          }
+        ]
+      }
+    ]
+  }
+  

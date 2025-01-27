@@ -1,0 +1,76 @@
+{
+    "photoData": [
+      {
+        "groupId": 1,
+        "heading": "Morulo Dance",
+        "folder": "MoruloDance",
+        "photoes": [
+          {
+            "id": 1,
+            "img": "pic1"
+          },
+          {
+            "id": 2,
+            "img": "pic2"
+          },
+          {
+            "id": 3,
+            "img": "pic3"
+          }
+        ]
+      },{
+        "groupId": 2,
+        "heading": "Patriotic singing group",
+        "folder": "Patriotic singing group",
+        "photoes": [
+          {
+            "id": 1,
+            "img": "1st place at Patriotic Group Singing competition  organised by MMC Mapusa."
+          },
+          {
+            "id": 2,
+            "img": "1st place Patriotic singing group(U-14) winner Rotary club of Mapusa"
+          },
+          {
+            "id": 3,
+            "img": "Bagged 1st place at Patriotic Group Singing competition at Taluka level organised by Balbhavan Panaji and now qualified for State Level"
+          },
+          {
+            "id": 4,
+            "img": "Bagged f1st place at Patriotic Group Singing competition  organised by MMC Mapusa"
+          },
+          {
+            "id": 5,
+            "img": "Bagged f1st place at State Level in Patriotic Group Singing competition  organised by Balbhavan,  Panaji"
+          },
+          {
+            "id": 6,
+            "img": "Falicitation of patriotic singing group by management"
+          },
+          {
+            "id": 7,
+            "img": "WhatsApp Image 2023-08-19 at 8.37.57 PM",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "groupId": 3,
+        "heading": "Taluka level Sane Guruji Story Telling Competition",
+        "folder": "Taluka level Sane Guruji Story Telling Competition",
+        "photoes": [
+          {
+            "id": 1,
+            "img": "Mast. Bhaskar Sathe 1st Place",
+            "desc": "Mast. Bhaskar Sathe 1st Place"
+          },
+          {
+            "id": 2,
+            "img": "Mast. Shubhan Shirgaonkar 3rd place",
+            "desc": "Mast. Shubhan Shirgaonkar 3rd place"
+          }
+        ]
+      }
+    ]
+  }
+  

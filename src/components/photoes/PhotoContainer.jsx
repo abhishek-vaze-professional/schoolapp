@@ -20,4 +20,4 @@ function PhotoContainer(props) {
   )
 }
 
-export default PhotoContainer
+export default PhotoContainer;
