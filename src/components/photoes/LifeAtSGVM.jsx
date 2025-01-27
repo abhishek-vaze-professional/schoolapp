@@ -14,7 +14,7 @@ function LifeAtSGVM() {
   const photos = photoData.photoData;
   return (
     <div className="textColorGray">
-      <p className='sHeader capriolafont' id="head">Life At SVGM</p>
+      <p className='sHeader capriolafont' id="head">Photo Gallery </p>
       <br></br>
       <Box className='content textColorGray' sx={whiteBoxStyle}>
         {photos.map((photo, i) => (

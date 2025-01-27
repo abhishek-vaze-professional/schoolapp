@@ -36,13 +36,13 @@ function PhotoGroup(props) {
   const photos = props.photoes;
   return (
     <>
-      {!isMatch ? (<Grid2 container spacing={2}>
+      {(<Grid2 container spacing={2}>
         {photos.map((object, i) => (
-          <Grid2 item>
+          <Grid2 item size={{xs:6, sm:4, md:4, lg:4, xl:4}}>
             <Photo photo={object} folder={props.folder} handleOpen={handleOpen} />
           </Grid2>
         ))}
-      </Grid2>):(<QuiltedImageList images={photos} handleOpen={handleOpen}></QuiltedImageList>)}
+      </Grid2>)}
 
       <Modal
         aria-labelledby='transition-modal-title'

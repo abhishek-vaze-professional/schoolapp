@@ -15,7 +15,7 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
     fontFamily :'Montserrat'
   },
   [`&.${tableCellClasses.body}`]: {
-    fontSize: 14,
+    fontSize: 20,
     fontFamily :'Montserrat'
   },
 }));

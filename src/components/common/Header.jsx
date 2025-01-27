@@ -4,7 +4,9 @@ import schoolLogo from "../../assets/images/logo1.png";
 import { Container, Divider, Grid2, Box } from "@mui/material";
 import TabHeader from "./TabHeader";
 import schoolbg from "../../assets/images/school-bg.jpg";
-import ganeshImg from "../../assets/images/ganesh.png";
+//import ganeshImg from "../../assets/images/ganesh.png";
+//import ganeshImg from "../../assets/images/ganesh1.png";
+import ganeshImg from "../../assets/images/ganesh2.png";
 
 function Header() {
   return (
