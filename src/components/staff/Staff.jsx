@@ -15,7 +15,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { whiteBoxStyle } from "../common/commonUtil";
-import staffpic from "../../assets/images/staff-all.jpg";
+import staffpic from "../../assets/images/staff-all-a.jpg";
 
 const style = {
   position: "absolute",
