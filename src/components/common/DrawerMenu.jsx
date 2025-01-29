@@ -14,7 +14,7 @@ function DrawerMenu(props) {
   const handleClose = (path) => {
     setAnchorEl(null);
     props.closeDrawer();
-    navigate(path);
+    //navigate(path);
   };
   return (
     <>
