@@ -21,13 +21,13 @@ function Header() {
         >
           <img src={schoolbg} alt='School' className='resIg fader' />
         </Box>
-        <Box sx={{ background: "transparent", top: 10, left: 30, position: "absolute", zIndex: 1100, height: "calc((10vw*262)/202)", width: "10 vw" }}>
+        <Box sx={{ background: "transparent", top: 10, left: { xl: 30, lg: 30, md: 30, sm: 10, xs: 20 }, position: "absolute", zIndex: 1100, height: "calc((10vw*262)/202)", width: "10 vw" }}>
           <img src={schoolLogo} className='resIg' />
         </Box>
-        <Box sx={{ background: "transparent", top: 10, right: 30, position: "absolute", zIndex: 1100, height: "calc((10vw*262)/202)", width: "10 vw" }}>
+        <Box sx={{ background: "transparent", top: 10, right: { xl: 30, lg: 30, md: 30, sm: 10, xs: 16 }, position: "absolute", zIndex: 1100, height: "calc((10vw*262)/202)", width: "10 vw" }}>
           <img src={ganeshImg} className='resIg' />
         </Box>
-        <Box sx={{ background: "transparent", top: { xl: 90, lg: 75, md: 60, sm: 20, xs: 10 }, left: { xl: 260, lg: 200, md: 180, sm: 140, xs: 100 }, position: "absolute", zIndex: 1100 }}>
+        <Box sx={{ background: "transparent", top: { xl: 90, lg: 75, md: 60, sm: 20, xs: 3 }, left: { xl: 260, lg: 200, md: 180, sm: 140, xs: 70 }, position: "absolute", zIndex: 1100 }}>
           <Box
             sx={{
               color: "#074799",
