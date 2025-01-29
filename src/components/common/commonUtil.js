@@ -38,8 +38,8 @@ export function validateMobileNumber(mob) {
 
  export const pages = [
     { title: "About Us", path: "",
-    submenu:[{ title: "SGVM At Glance", path: "dashboard"},{ title: "Admissions & Others", path: "home"},{ title: "Our School", path: "school"}]  },
-    { title: "Administration", path: "", submenu:[{ title: "Management", path: "management"},{ title: "Faculty", path: "staff"}] },
+    submenu:[{ title: "SGVM At Glance", path: "/dashboard"},{ title: "Admissions & Others", path: "/home"},{ title: "Our School", path: "/school"}]  },
+    { title: "Administration", path: "", submenu:[{ title: "Management", path: "/management"},{ title: "Faculty", path: "/staff"}] },
     { title: "Results", path: "/result" },
     { title: "Achievements", path: "/achievement" },
     { title: "Photo Gallery", path: "/photoes" },

@@ -33,7 +33,7 @@ function Header() {
               color: "#074799",
               textAlign: "start",
               fontSize: {
-                xs: "x-Small",
+                xs: "xx-Small",
                 sm: "small",
                 md: "medium",
                 lg: "large",
@@ -49,7 +49,7 @@ function Header() {
               color: "#074799",
               fontWeight: "bolder",
               fontSize: {
-                xs: "Small",
+                xs: "x-Small",
                 sm: "medium",
                 md: "large",
                 lg: "xx-large",
@@ -66,7 +66,7 @@ function Header() {
               color: "#074799",
               fontWeight: "bolder",
               fontSize: {
-                xs: "x-Small",
+                xs: "xx-Small",
                 sm: "small",
                 md: "medium",
                 lg: "large",
